@@ -138,6 +138,7 @@ Writing Output: /Users/celian/Documents/Projets/dragon-quest-minecraft/build/reo
   assets/dragonquestminecraft/
   assets/dragonquestminecraft/lang/
   assets/dragonquestminecraft/lang/en_us.json
+  assets/dragonquestminecraft/lang/fr_fr.json
   assets/dragonquestminecraft/models/
   assets/dragonquestminecraft/models/item/
   assets/dragonquestminecraft/models/item/slime_drop.json
@@ -148,5 +149,6 @@ Writing Output: /Users/celian/Documents/Projets/dragon-quest-minecraft/build/reo
   dragonquestminecraft/DragonQuestMinecraft$ClientModEvents.class
   dragonquestminecraft/DragonQuestMinecraft.class
   dragonquestminecraft/item/
+  dragonquestminecraft/item/ModCreativeModTabs.class
   dragonquestminecraft/item/ModItems.class
   pack.mcmeta
