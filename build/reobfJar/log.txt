@@ -136,15 +136,22 @@ Writing Output: /Users/celian/Documents/Projets/dragon-quest-minecraft/build/reo
   META-INF/mods.toml
   assets/
   assets/dragonquestminecraft/
+  assets/dragonquestminecraft/blockstates/
+  assets/dragonquestminecraft/blockstates/orichalcum_ore.json
   assets/dragonquestminecraft/lang/
   assets/dragonquestminecraft/lang/en_us.json
   assets/dragonquestminecraft/lang/fr_fr.json
   assets/dragonquestminecraft/models/
+  assets/dragonquestminecraft/models/block/
+  assets/dragonquestminecraft/models/block/orichalcum_ore.json
   assets/dragonquestminecraft/models/item/
   assets/dragonquestminecraft/models/item/orichalcum_ingot.json
+  assets/dragonquestminecraft/models/item/orichalcum_ore.json
   assets/dragonquestminecraft/models/item/raw_orichalcum.json
   assets/dragonquestminecraft/models/item/slime_drop.json
   assets/dragonquestminecraft/textures/
+  assets/dragonquestminecraft/textures/block/
+  assets/dragonquestminecraft/textures/block/orichalcum_ore.png
   assets/dragonquestminecraft/textures/item/
   assets/dragonquestminecraft/textures/item/orichalcum_ingot.png
   assets/dragonquestminecraft/textures/item/raw_orichalcum.png
@@ -152,6 +159,8 @@ Writing Output: /Users/celian/Documents/Projets/dragon-quest-minecraft/build/reo
   dragonquestminecraft/
   dragonquestminecraft/DragonQuestMinecraft$ClientModEvents.class
   dragonquestminecraft/DragonQuestMinecraft.class
+  dragonquestminecraft/block/
+  dragonquestminecraft/block/ModBlocks.class
   dragonquestminecraft/item/
   dragonquestminecraft/item/ModCreativeModTabs.class
   dragonquestminecraft/item/ModItems.class

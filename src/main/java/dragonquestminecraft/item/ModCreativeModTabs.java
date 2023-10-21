@@ -1,6 +1,7 @@
 package dragonquestminecraft.item;
 
 import dragonquestminecraft.DragonQuestMinecraft;
+import dragonquestminecraft.block.ModBlocks;
 import net.minecraft.core.registries.Registries;
 import net.minecraft.network.chat.Component;
 import net.minecraft.world.item.CreativeModeTab;
@@ -21,6 +22,7 @@ public class ModCreativeModTabs {
                                 p_259752_.accept(ModItems.SLIME_DROP.get());
                                 p_259752_.accept(ModItems.RAW_ORICHALCUM.get());
                                 p_259752_.accept(ModItems.ORICHALCUM_INGOT.get());
+                                p_259752_.accept(ModBlocks.ORICHALCUM_ORE.get());
                             })
                             .build());
     public static void register(IEventBus eventBus) {
