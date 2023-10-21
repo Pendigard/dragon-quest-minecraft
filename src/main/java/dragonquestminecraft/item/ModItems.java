@@ -14,6 +14,11 @@ public class ModItems {
     public static final RegistryObject<Item> SLIME_DROP = ITEMS.register("slime_drop",
             () -> new Item(new Item.Properties()));
 
+    public static final RegistryObject<Item> RAW_ORICHALCUM = ITEMS.register("raw_orichalcum",
+            () -> new Item(new Item.Properties()));
+
+    public static final RegistryObject<Item> ORICHALCUM_INGOT = ITEMS.register("orichalcum_ingot",
+            () -> new Item(new Item.Properties()));
 
     public static void register(IEventBus eventBus) {
         ITEMS.register(eventBus);

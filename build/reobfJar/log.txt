@@ -141,9 +141,13 @@ Writing Output: /Users/celian/Documents/Projets/dragon-quest-minecraft/build/reo
   assets/dragonquestminecraft/lang/fr_fr.json
   assets/dragonquestminecraft/models/
   assets/dragonquestminecraft/models/item/
+  assets/dragonquestminecraft/models/item/orichalcum_ingot.json
+  assets/dragonquestminecraft/models/item/raw_orichalcum.json
   assets/dragonquestminecraft/models/item/slime_drop.json
   assets/dragonquestminecraft/textures/
   assets/dragonquestminecraft/textures/item/
+  assets/dragonquestminecraft/textures/item/orichalcum_ingot.png
+  assets/dragonquestminecraft/textures/item/raw_orichalcum.png
   assets/dragonquestminecraft/textures/item/slime_drop.png
   dragonquestminecraft/
   dragonquestminecraft/DragonQuestMinecraft$ClientModEvents.class

@@ -1,4 +1,6 @@
 {
   "item.dragonquestminecraft.slime_drop" : "Glugoutte",
-  "creativetab.dragon_quest_tab" : "Dragonquest"
+  "item.dragonquestminecraft.raw_orichalcum" : "Orichalque brut",
+  "item.dragonquestminecraft.orichalcum_ingot" : "Lingot d'Orichalque",
+  "creativetab.dragon_quest_tab" : "Dragon Quest"
 }

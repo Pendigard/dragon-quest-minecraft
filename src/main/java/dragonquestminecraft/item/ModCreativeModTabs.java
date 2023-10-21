@@ -19,6 +19,8 @@ public class ModCreativeModTabs {
                             .title(Component.translatable("creativetab.dragon_quest_tab"))
                             .displayItems((p_270258_, p_259752_) ->  {
                                 p_259752_.accept(ModItems.SLIME_DROP.get());
+                                p_259752_.accept(ModItems.RAW_ORICHALCUM.get());
+                                p_259752_.accept(ModItems.ORICHALCUM_INGOT.get());
                             })
                             .build());
     public static void register(IEventBus eventBus) {
