@@ -19,11 +19,26 @@ public class ModCreativeModTabs {
                     () -> CreativeModeTab.builder().icon(() -> new ItemStack(ModItems.SLIME_DROP.get()))
                             .title(Component.translatable("creativetab.dragon_quest_tab"))
                             .displayItems((p_270258_, p_259752_) ->  {
+                                p_259752_.accept(ModItems.MINI_MEDAL.get());
+                                p_259752_.accept(ModItems.SLIME_DROP.get());
+                                p_259752_.accept(ModItems.MOLTEN_GLOBULES.get());
+                                p_259752_.accept(ModItems.SLIME_CROWN.get());
+                                p_259752_.accept(ModItems.MAGIC_BEAST_HIDE.get());
+                                p_259752_.accept(ModItems.MAGIC_BEAST_HORN.get());
+                                p_259752_.accept(ModItems.MIRROR_STONE.get());
+                                p_259752_.accept(ModItems.CHRONOCRYSTAL.get());
+                                p_259752_.accept(ModItems.ETHEREAL_STONE.get());
+                                p_259752_.accept(ModItems.SAINTED_SOMA.get());
+                                p_259752_.accept(ModItems.ROYAL_RUBY.get());
+                                p_259752_.accept(ModItems.SAVVY_SAPPHIRE.get());
+                                p_259752_.accept(ModItems.EQUABLE_EMERALD.get());
+                                p_259752_.accept(ModItems.SUNNY_CITRINE.get());
+                                p_259752_.accept(ModItems.ARTFUL_AMETHYST.get());
+                                p_259752_.accept(ModItems.ROYAL_SOIL.get());
+                                p_259752_.accept(ModItems.DENSINIUM.get());
                                 p_259752_.accept(ModItems.RAW_ORICHALCUM.get());
                                 p_259752_.accept(ModItems.ORICHALCUM_INGOT.get());
                                 p_259752_.accept(ModBlocks.ORICHALCUM_ORE.get());
-                                p_259752_.accept(ModItems.MINI_MEDAL.get());
-                                p_259752_.accept(ModItems.SLIME_DROP.get());
                             })
                             .build());
     public static void register(IEventBus eventBus) {

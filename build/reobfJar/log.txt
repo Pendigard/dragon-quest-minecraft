@@ -145,19 +145,49 @@ Writing Output: /Users/celian/Documents/Projets/dragon-quest-minecraft/build/reo
   assets/dragonquestminecraft/models/block/
   assets/dragonquestminecraft/models/block/orichalcum_ore.json
   assets/dragonquestminecraft/models/item/
+  assets/dragonquestminecraft/models/item/artful_amethyst.json
+  assets/dragonquestminecraft/models/item/chronocrystal.json
+  assets/dragonquestminecraft/models/item/densinium.json
+  assets/dragonquestminecraft/models/item/equable_emerald.json
+  assets/dragonquestminecraft/models/item/ethereal_stone.json
+  assets/dragonquestminecraft/models/item/magic_beast_hide.json
+  assets/dragonquestminecraft/models/item/magic_beast_horn.json
   assets/dragonquestminecraft/models/item/mini_medal.json
+  assets/dragonquestminecraft/models/item/mirror_stone.json
+  assets/dragonquestminecraft/models/item/molten_globules.json
   assets/dragonquestminecraft/models/item/orichalcum_ingot.json
   assets/dragonquestminecraft/models/item/orichalcum_ore.json
   assets/dragonquestminecraft/models/item/raw_orichalcum.json
+  assets/dragonquestminecraft/models/item/royal_ruby.json
+  assets/dragonquestminecraft/models/item/royal_soil.json
+  assets/dragonquestminecraft/models/item/sainted_soma.json
+  assets/dragonquestminecraft/models/item/savvy_sapphire.json
+  assets/dragonquestminecraft/models/item/slime_crown.json
   assets/dragonquestminecraft/models/item/slime_drop.json
+  assets/dragonquestminecraft/models/item/sunny_citrine.json
   assets/dragonquestminecraft/textures/
   assets/dragonquestminecraft/textures/block/
   assets/dragonquestminecraft/textures/block/orichalcum_ore.png
   assets/dragonquestminecraft/textures/item/
+  assets/dragonquestminecraft/textures/item/artful_amethyst.png
+  assets/dragonquestminecraft/textures/item/chronocrystal.png
+  assets/dragonquestminecraft/textures/item/densinium.png
+  assets/dragonquestminecraft/textures/item/equable_emerald.png
+  assets/dragonquestminecraft/textures/item/ethereal_stone.png
+  assets/dragonquestminecraft/textures/item/magic_beast_hide.png
+  assets/dragonquestminecraft/textures/item/magic_beast_horn.png
   assets/dragonquestminecraft/textures/item/mini_medal.png
+  assets/dragonquestminecraft/textures/item/mirror_stone.png
+  assets/dragonquestminecraft/textures/item/molten_globules.png
   assets/dragonquestminecraft/textures/item/orichalcum_ingot.png
   assets/dragonquestminecraft/textures/item/raw_orichalcum.png
+  assets/dragonquestminecraft/textures/item/royal_ruby.png
+  assets/dragonquestminecraft/textures/item/royal_soil.png
+  assets/dragonquestminecraft/textures/item/sainted_soma.png
+  assets/dragonquestminecraft/textures/item/savvy_sapphire.png
+  assets/dragonquestminecraft/textures/item/slime_crown.png
   assets/dragonquestminecraft/textures/item/slime_drop.png
+  assets/dragonquestminecraft/textures/item/sunny_citrine.png
   data/
   data/dragonquestminecraft/
   data/dragonquestminecraft/loot_tables/
