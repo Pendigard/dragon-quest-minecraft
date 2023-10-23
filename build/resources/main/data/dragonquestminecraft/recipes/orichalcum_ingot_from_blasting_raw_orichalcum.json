@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:blasting",
+  "category": "misc",
+  "cookingtime": 200,
+  "experience": 1,
+  "group": "orichalcum_ingot",
+  "ingredient": {
+    "item": "dragonquestminecraft:raw_orichalcum"
+  },
+  "result": "dragonquestminecraft:orichalcum_ingot"
+}

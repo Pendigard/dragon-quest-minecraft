@@ -145,6 +145,7 @@ Writing Output: /Users/celian/Documents/Projets/dragon-quest-minecraft/build/reo
   assets/dragonquestminecraft/models/block/
   assets/dragonquestminecraft/models/block/orichalcum_ore.json
   assets/dragonquestminecraft/models/item/
+  assets/dragonquestminecraft/models/item/mini_medal.json
   assets/dragonquestminecraft/models/item/orichalcum_ingot.json
   assets/dragonquestminecraft/models/item/orichalcum_ore.json
   assets/dragonquestminecraft/models/item/raw_orichalcum.json
@@ -153,9 +154,29 @@ Writing Output: /Users/celian/Documents/Projets/dragon-quest-minecraft/build/reo
   assets/dragonquestminecraft/textures/block/
   assets/dragonquestminecraft/textures/block/orichalcum_ore.png
   assets/dragonquestminecraft/textures/item/
+  assets/dragonquestminecraft/textures/item/mini_medal.png
   assets/dragonquestminecraft/textures/item/orichalcum_ingot.png
   assets/dragonquestminecraft/textures/item/raw_orichalcum.png
   assets/dragonquestminecraft/textures/item/slime_drop.png
+  data/
+  data/dragonquestminecraft/
+  data/dragonquestminecraft/loot_tables/
+  data/dragonquestminecraft/loot_tables/blocks/
+  data/dragonquestminecraft/loot_tables/blocks/orichalcum_ore.json
+  data/dragonquestminecraft/recipes/
+  data/dragonquestminecraft/recipes/orichalcum_ingot_from_blasting_raw_orichalcum.json
+  data/dragonquestminecraft/recipes/orichalcum_ingot_from_smelting_raw_orichalcum.json
+  data/minecraft/
+  data/minecraft/tags/
+  data/minecraft/tags/blocks/
+  data/minecraft/tags/blocks/mineable/
+  data/minecraft/tags/blocks/mineable/axe.json
+  data/minecraft/tags/blocks/mineable/hoe.json
+  data/minecraft/tags/blocks/mineable/pickaxe.json
+  data/minecraft/tags/blocks/mineable/shovel.json
+  data/minecraft/tags/blocks/needs_diamond_tool.json
+  data/minecraft/tags/blocks/needs_iron_tool.json
+  data/minecraft/tags/blocks/needs_stone_tool.json
   dragonquestminecraft/
   dragonquestminecraft/DragonQuestMinecraft$ClientModEvents.class
   dragonquestminecraft/DragonQuestMinecraft.class
