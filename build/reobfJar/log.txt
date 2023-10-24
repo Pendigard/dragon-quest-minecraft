@@ -152,6 +152,7 @@ Writing Output: /Users/celian/Documents/Projets/dragon-quest-minecraft/build/reo
   assets/dragonquestminecraft/models/item/ethereal_stone.json
   assets/dragonquestminecraft/models/item/magic_beast_hide.json
   assets/dragonquestminecraft/models/item/magic_beast_horn.json
+  assets/dragonquestminecraft/models/item/metal_slime_sword.json
   assets/dragonquestminecraft/models/item/mini_medal.json
   assets/dragonquestminecraft/models/item/mirror_stone.json
   assets/dragonquestminecraft/models/item/molten_globules.json
@@ -174,8 +175,10 @@ Writing Output: /Users/celian/Documents/Projets/dragon-quest-minecraft/build/reo
   assets/dragonquestminecraft/textures/item/densinium.png
   assets/dragonquestminecraft/textures/item/equable_emerald.png
   assets/dragonquestminecraft/textures/item/ethereal_stone.png
+  assets/dragonquestminecraft/textures/item/liquid_metal_sword.png
   assets/dragonquestminecraft/textures/item/magic_beast_hide.png
   assets/dragonquestminecraft/textures/item/magic_beast_horn.png
+  assets/dragonquestminecraft/textures/item/metal_slime_sword.png
   assets/dragonquestminecraft/textures/item/mini_medal.png
   assets/dragonquestminecraft/textures/item/mirror_stone.png
   assets/dragonquestminecraft/textures/item/molten_globules.png
@@ -190,12 +193,65 @@ Writing Output: /Users/celian/Documents/Projets/dragon-quest-minecraft/build/reo
   assets/dragonquestminecraft/textures/item/sunny_citrine.png
   data/
   data/dragonquestminecraft/
+  data/dragonquestminecraft/loot_modifiers/
+  data/dragonquestminecraft/loot_modifiers/mini_medal_modifier/
+  data/dragonquestminecraft/loot_modifiers/mini_medal_modifier/mini_medal_abandoned_mineshaft.json
+  data/dragonquestminecraft/loot_modifiers/mini_medal_modifier/mini_medal_ancient_city.json
+  data/dragonquestminecraft/loot_modifiers/mini_medal_modifier/mini_medal_ancient_city_ice_box.json
+  data/dragonquestminecraft/loot_modifiers/mini_medal_modifier/mini_medal_bastion_bridge.json
+  data/dragonquestminecraft/loot_modifiers/mini_medal_modifier/mini_medal_bastion_hoglin_stable.json
+  data/dragonquestminecraft/loot_modifiers/mini_medal_modifier/mini_medal_bastion_other.json
+  data/dragonquestminecraft/loot_modifiers/mini_medal_modifier/mini_medal_bastion_treasure.json
+  data/dragonquestminecraft/loot_modifiers/mini_medal_modifier/mini_medal_buried_treasure.json
+  data/dragonquestminecraft/loot_modifiers/mini_medal_modifier/mini_medal_desert_pyramid.json
+  data/dragonquestminecraft/loot_modifiers/mini_medal_modifier/mini_medal_end_city_treasure.json
+  data/dragonquestminecraft/loot_modifiers/mini_medal_modifier/mini_medal_igloo_chest.json
+  data/dragonquestminecraft/loot_modifiers/mini_medal_modifier/mini_medal_jungle_temple.json
+  data/dragonquestminecraft/loot_modifiers/mini_medal_modifier/mini_medal_jungle_temple_dispenser.json
+  data/dragonquestminecraft/loot_modifiers/mini_medal_modifier/mini_medal_nether_bridge.json
+  data/dragonquestminecraft/loot_modifiers/mini_medal_modifier/mini_medal_pillager_outpost.json
+  data/dragonquestminecraft/loot_modifiers/mini_medal_modifier/mini_medal_ruined_portal.json
+  data/dragonquestminecraft/loot_modifiers/mini_medal_modifier/mini_medal_shipwreck_map.json
+  data/dragonquestminecraft/loot_modifiers/mini_medal_modifier/mini_medal_shipwreck_supply.json
+  data/dragonquestminecraft/loot_modifiers/mini_medal_modifier/mini_medal_shipwreck_treasure.json
+  data/dragonquestminecraft/loot_modifiers/mini_medal_modifier/mini_medal_simple_dungeon.json
+  data/dragonquestminecraft/loot_modifiers/mini_medal_modifier/mini_medal_spawn_bonus_chest.json
+  data/dragonquestminecraft/loot_modifiers/mini_medal_modifier/mini_medal_stronghold_corridor.json
+  data/dragonquestminecraft/loot_modifiers/mini_medal_modifier/mini_medal_stronghold_crossing.json
+  data/dragonquestminecraft/loot_modifiers/mini_medal_modifier/mini_medal_stronghold_library.json
+  data/dragonquestminecraft/loot_modifiers/mini_medal_modifier/mini_medal_underwater_ruin_big.json
+  data/dragonquestminecraft/loot_modifiers/mini_medal_modifier/mini_medal_underwater_ruin_small.json
+  data/dragonquestminecraft/loot_modifiers/mini_medal_modifier/mini_medal_village_armorer.json
+  data/dragonquestminecraft/loot_modifiers/mini_medal_modifier/mini_medal_village_butcher.json
+  data/dragonquestminecraft/loot_modifiers/mini_medal_modifier/mini_medal_village_cartographer.json
+  data/dragonquestminecraft/loot_modifiers/mini_medal_modifier/mini_medal_village_desert_house.json
+  data/dragonquestminecraft/loot_modifiers/mini_medal_modifier/mini_medal_village_fisher.json
+  data/dragonquestminecraft/loot_modifiers/mini_medal_modifier/mini_medal_village_fletcher.json
+  data/dragonquestminecraft/loot_modifiers/mini_medal_modifier/mini_medal_village_mason.json
+  data/dragonquestminecraft/loot_modifiers/mini_medal_modifier/mini_medal_village_plains_house.json
+  data/dragonquestminecraft/loot_modifiers/mini_medal_modifier/mini_medal_village_savanna_house.json
+  data/dragonquestminecraft/loot_modifiers/mini_medal_modifier/mini_medal_village_shepherd.json
+  data/dragonquestminecraft/loot_modifiers/mini_medal_modifier/mini_medal_village_snowy_house.json
+  data/dragonquestminecraft/loot_modifiers/mini_medal_modifier/mini_medal_village_taiga_house.json
+  data/dragonquestminecraft/loot_modifiers/mini_medal_modifier/mini_medal_village_tannery.json
+  data/dragonquestminecraft/loot_modifiers/mini_medal_modifier/mini_medal_village_temple.json
+  data/dragonquestminecraft/loot_modifiers/mini_medal_modifier/mini_medal_village_toolsmith.json
+  data/dragonquestminecraft/loot_modifiers/mini_medal_modifier/mini_medal_village_weaponsmith.json
+  data/dragonquestminecraft/loot_modifiers/mini_medal_modifier/mini_medal_woodland_mansion.json
   data/dragonquestminecraft/loot_tables/
   data/dragonquestminecraft/loot_tables/blocks/
   data/dragonquestminecraft/loot_tables/blocks/orichalcum_ore.json
+  data/dragonquestminecraft/loot_tables/injection/
+  data/dragonquestminecraft/loot_tables/injection/minecraft/
+  data/dragonquestminecraft/loot_tables/injection/minecraft/chests/
+  data/dragonquestminecraft/loot_tables/injection/minecraft/chests/simple_dungeon.json
   data/dragonquestminecraft/recipes/
+  data/dragonquestminecraft/recipes/densinium_craft.json
   data/dragonquestminecraft/recipes/orichalcum_ingot_from_blasting_raw_orichalcum.json
   data/dragonquestminecraft/recipes/orichalcum_ingot_from_smelting_raw_orichalcum.json
+  data/forge/
+  data/forge/loot_modifiers/
+  data/forge/loot_modifiers/global_loot_modifiers.json
   data/minecraft/
   data/minecraft/tags/
   data/minecraft/tags/blocks/
@@ -215,4 +271,7 @@ Writing Output: /Users/celian/Documents/Projets/dragon-quest-minecraft/build/reo
   dragonquestminecraft/item/
   dragonquestminecraft/item/ModCreativeModTabs.class
   dragonquestminecraft/item/ModItems.class
+  dragonquestminecraft/loot/
+  dragonquestminecraft/loot/AddItemModifier.class
+  dragonquestminecraft/loot/ModLootModifiers.class
   pack.mcmeta

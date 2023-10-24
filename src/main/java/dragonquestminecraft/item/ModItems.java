@@ -62,6 +62,9 @@ public class ModItems {
     public static final RegistryObject<Item>  MAGIC_BEAST_HORN = ITEMS.register("magic_beast_horn",
             () -> new Item(new Item.Properties()));
 
+    public static final RegistryObject<Item>  METAL_SLIME_SWORD = ITEMS.register("metal_slime_sword",
+            () -> new Item(new Item.Properties()));
+
 
 
     public static void register(IEventBus eventBus) {

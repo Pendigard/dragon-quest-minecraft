@@ -1,0 +1,11 @@
+{
+    "type": "dragonquestminecraft:add_item",
+    "conditions": [
+        {
+            "condition": "forge:loot_table_id",
+            "loot_table_id": "minecraft:chests/ancient_city_ice_box"
+        }
+    ],
+    "item": "dragonquestminecraft:mini_medal",
+    "luck": 0.5
+}

@@ -36,6 +36,7 @@ public class ModCreativeModTabs {
                                 p_259752_.accept(ModItems.ARTFUL_AMETHYST.get());
                                 p_259752_.accept(ModItems.ROYAL_SOIL.get());
                                 p_259752_.accept(ModItems.DENSINIUM.get());
+                                p_259752_.accept(ModItems.METAL_SLIME_SWORD.get());
                                 p_259752_.accept(ModItems.RAW_ORICHALCUM.get());
                                 p_259752_.accept(ModItems.ORICHALCUM_INGOT.get());
                                 p_259752_.accept(ModBlocks.ORICHALCUM_ORE.get());

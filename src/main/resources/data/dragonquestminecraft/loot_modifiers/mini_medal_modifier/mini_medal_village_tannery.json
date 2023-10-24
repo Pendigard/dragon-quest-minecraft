@@ -1,0 +1,1 @@
+{"type": "dragonquestminecraft:add_item", "conditions": [{"condition": "forge:loot_table_id", "loot_table_id": "minecraft:chests/village_tannery"}], "item": "dragonquestminecraft:mini_medal", "luck": 0.3}
