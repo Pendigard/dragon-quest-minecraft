@@ -1,5 +1,6 @@
 package dragonquestminecraft.item;
 
+import net.minecraft.client.gui.screens.Screen;
 import net.minecraft.world.item.Item;
 import net.minecraft.world.item.ItemStack;
 import net.minecraft.world.item.TooltipFlag;
@@ -17,7 +18,11 @@ public class ModItemWithDescription extends Item {
     @Override
     public void appendHoverText(ItemStack pStack, @Nullable Level pLevel, List<Component> pTooltipComponents, TooltipFlag pIsAdvanced) {
         String itemName = this.toString();
-        pTooltipComponents.add(Component.translatable("tooltip.dragonquestminecraft." + itemName + ".tooltip"));
+        if (Screen.hasShiftDown())
+            pTooltipComponents.add(Component.translatable("tooltip.dragonquestminecraft." + itemName + ".tooltip"));
+        else {
+            pTooltipComponents.add(Component.translatable("tooltip.dragonquestminecraft.slime_drop.tooltip.shift"));
+        }
         super.appendHoverText(pStack, pLevel, pTooltipComponents, pIsAdvanced);
     }
 }

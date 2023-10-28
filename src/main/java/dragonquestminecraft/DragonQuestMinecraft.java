@@ -2,6 +2,7 @@ package dragonquestminecraft;
 
 import com.mojang.logging.LogUtils;
 import dragonquestminecraft.block.ModBlocks;
+import dragonquestminecraft.effect.ModEffects;
 import dragonquestminecraft.entity.ModEntities;
 import dragonquestminecraft.entity.client.SlimeRenderer;
 import dragonquestminecraft.item.ModCreativeModTabs;
@@ -52,6 +53,7 @@ public class DragonQuestMinecraft {
         ModBlocks.register(modEventBus);
         ModLootModifiers.register(modEventBus);
         ModEntities.register(modEventBus);
+        ModEffects.register(modEventBus);
 
         // Register the commonSetup method for modloading
         modEventBus.addListener(this::commonSetup);

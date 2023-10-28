@@ -1,0 +1,16 @@
+{
+  "type" : "minecraft:crafting_shaped",
+  "category" : "misc",
+  "key": {
+    "#": {
+      "item": "dragonquestminecraft:strong_medicine"
+    }
+  },
+  "pattern" : [
+    "# ",
+    " #"
+  ],
+  "result" : {
+    "item" : "dragonquestminecraft:superior_medicine"
+  }
+}

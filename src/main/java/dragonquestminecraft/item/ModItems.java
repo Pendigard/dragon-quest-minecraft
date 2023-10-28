@@ -73,6 +73,18 @@ public class ModItems {
             () -> new ForgeSpawnEggItem(ModEntities.SLIME, 0x00c9ff, 0x0083ff,
                     new Item.Properties()));
 
+    public static final RegistryObject<Item> MEDICINAL_HERB = ITEMS.register("medicinal_herb",
+            () -> new ModItemWithDescription(new Item.Properties().food(ModFoods.MEDICINAL_HERB)));
+
+    public static final RegistryObject<Item> STRONG_MEDICINE = ITEMS.register("strong_medicine",
+            () -> new ModItemWithDescription(new Item.Properties().food(ModFoods.STRONG_MEDICINE)));
+
+    public static final RegistryObject<Item> SUPERIOR_MEDICINE = ITEMS.register("superior_medicine",
+            () -> new ModItemWithDescription(new Item.Properties().food(ModFoods.SUPERIOR_MEDICINE)));
+
+    public static final RegistryObject<Item> YGGDRASIL_LEAF = ITEMS.register("yggdrasil_leaf",
+            () -> new ModItemWithDescription(new Item.Properties().food(ModFoods.YGGDRASIL_LEAF)));
+
 
 
     public static void register(IEventBus eventBus) {

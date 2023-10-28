@@ -135,11 +135,11 @@ Conflicting propagated mapping for dragonquestminecraft/entity/client/SlimeModel
 Conflicting propagated mapping for dragonquestminecraft/entity/client/SlimeModel/setupAnim(Lnet/minecraft/world/entity/Entity;FFFFF)V from net/minecraft/client/model/EntityModel/setupAnim(Lnet/minecraft/world/entity/Entity;FFFFF)V: setupAnim -> m_6973_
 Conflicting propagated mapping for dragonquestminecraft/entity/client/SlimeModel/renderToBuffer(Lcom/mojang/blaze3d/vertex/PoseStack;Lcom/mojang/blaze3d/vertex/VertexConsumer;IIFFFF)V from net/minecraft/client/model/HierarchicalModel/renderToBuffer(Lcom/mojang/blaze3d/vertex/PoseStack;Lcom/mojang/blaze3d/vertex/VertexConsumer;IIFFFF)V: renderToBuffer -> m_7695_
 Conflicting propagated mapping for net/minecraftforge/event/BuildCreativeModeTabContentsEvent/accept(Lnet/minecraft/world/item/ItemStack;Lnet/minecraft/world/item/CreativeModeTab$TabVisibility;)V from net/minecraft/world/item/CreativeModeTab$Output/accept(Lnet/minecraft/world/item/ItemStack;Lnet/minecraft/world/item/CreativeModeTab$TabVisibility;)V: accept -> m_246267_
-Conflicting propagated mapping for net/minecraftforge/common/ForgeSpawnEggItem/getType(Lnet/minecraft/nbt/CompoundTag;)Lnet/minecraft/world/entity/EntityType; from net/minecraft/world/item/SpawnEggItem/getType(Lnet/minecraft/nbt/CompoundTag;)Lnet/minecraft/world/entity/EntityType;: getType -> m_43228_
 Conflicting propagated mapping for dragonquestminecraft/item/ModItemWithDescription/appendHoverText(Lnet/minecraft/world/item/ItemStack;Lnet/minecraft/world/level/Level;Ljava/util/List;Lnet/minecraft/world/item/TooltipFlag;)V from net/minecraft/world/item/Item/appendHoverText(Lnet/minecraft/world/item/ItemStack;Lnet/minecraft/world/level/Level;Ljava/util/List;Lnet/minecraft/world/item/TooltipFlag;)V: appendHoverText -> m_7373_
 Conflicting propagated mapping for dragonquestminecraft/entity/custom/SlimeEntity/tick()V from net/minecraft/world/entity/Mob/tick()V: tick -> m_8119_
 Conflicting propagated mapping for dragonquestminecraft/entity/custom/SlimeEntity/registerGoals()V from net/minecraft/world/entity/Mob/registerGoals()V: registerGoals -> m_8099_
 Conflicting propagated mapping for dragonquestminecraft/entity/custom/SlimeEntity/updateWalkAnimation(F)V from net/minecraft/world/entity/LivingEntity/updateWalkAnimation(F)V: updateWalkAnimation -> m_267689_
+Conflicting propagated mapping for net/minecraftforge/common/ForgeSpawnEggItem/getType(Lnet/minecraft/nbt/CompoundTag;)Lnet/minecraft/world/entity/EntityType; from net/minecraft/world/item/SpawnEggItem/getType(Lnet/minecraft/nbt/CompoundTag;)Lnet/minecraft/world/entity/EntityType;: getType -> m_43228_
 Conflicting propagated mapping for net/minecraft/world/entity/LivingEntity/lambda$addAdditionalSaveData$3(Lnet/minecraft/nbt/CompoundTag;Lnet/minecraft/nbt/Tag;)V from net/minecraft/world/entity/player/Player/lambda$addAdditionalSaveData$3(Lnet/minecraft/nbt/CompoundTag;Lnet/minecraft/nbt/Tag;)V: lambda$addAdditionalSaveData$3 -> m_219754_
 Adding extras
 Sorting
@@ -166,6 +166,7 @@ Writing Output: /Users/celian/Documents/Projets/dragon-quest-minecraft/build/reo
   assets/dragonquestminecraft/models/item/ethereal_stone.json
   assets/dragonquestminecraft/models/item/magic_beast_hide.json
   assets/dragonquestminecraft/models/item/magic_beast_horn.json
+  assets/dragonquestminecraft/models/item/medicinal_herb.json
   assets/dragonquestminecraft/models/item/metal_slime_sword.json
   assets/dragonquestminecraft/models/item/mini_medal.json
   assets/dragonquestminecraft/models/item/mirror_stone.json
@@ -179,11 +180,15 @@ Writing Output: /Users/celian/Documents/Projets/dragon-quest-minecraft/build/reo
   assets/dragonquestminecraft/models/item/savvy_sapphire.json
   assets/dragonquestminecraft/models/item/slime_crown.json
   assets/dragonquestminecraft/models/item/slime_drop.json
+  assets/dragonquestminecraft/models/item/strong_medicine.json
   assets/dragonquestminecraft/models/item/sunny_citrine.json
+  assets/dragonquestminecraft/models/item/superior_medicine.json
+  assets/dragonquestminecraft/models/item/yggdrasil_leaf.json
   assets/dragonquestminecraft/textures/
   assets/dragonquestminecraft/textures/block/
   assets/dragonquestminecraft/textures/block/orichalcum_ore.png
   assets/dragonquestminecraft/textures/entity/
+  assets/dragonquestminecraft/textures/entity/sheslime.png
   assets/dragonquestminecraft/textures/entity/slime.png
   assets/dragonquestminecraft/textures/item/
   assets/dragonquestminecraft/textures/item/artful_amethyst.png
@@ -194,6 +199,7 @@ Writing Output: /Users/celian/Documents/Projets/dragon-quest-minecraft/build/reo
   assets/dragonquestminecraft/textures/item/liquid_metal_sword.png
   assets/dragonquestminecraft/textures/item/magic_beast_hide.png
   assets/dragonquestminecraft/textures/item/magic_beast_horn.png
+  assets/dragonquestminecraft/textures/item/medicinal_herb.png
   assets/dragonquestminecraft/textures/item/metal_slime_sword.png
   assets/dragonquestminecraft/textures/item/mini_medal.png
   assets/dragonquestminecraft/textures/item/mirror_stone.png
@@ -206,7 +212,12 @@ Writing Output: /Users/celian/Documents/Projets/dragon-quest-minecraft/build/reo
   assets/dragonquestminecraft/textures/item/savvy_sapphire.png
   assets/dragonquestminecraft/textures/item/slime_crown.png
   assets/dragonquestminecraft/textures/item/slime_drop.png
+  assets/dragonquestminecraft/textures/item/strong_medicine.png
   assets/dragonquestminecraft/textures/item/sunny_citrine.png
+  assets/dragonquestminecraft/textures/item/superior_medicine.png
+  assets/dragonquestminecraft/textures/item/yggdrasil_leaf.png
+  assets/dragonquestminecraft/textures/mob_effect/
+  assets/dragonquestminecraft/textures/mob_effect/yggdrasil_blessing.png
   data/
   data/dragonquestminecraft/
   data/dragonquestminecraft/loot_modifiers/
@@ -263,6 +274,8 @@ Writing Output: /Users/celian/Documents/Projets/dragon-quest-minecraft/build/reo
   data/dragonquestminecraft/recipes/densinium_craft.json
   data/dragonquestminecraft/recipes/orichalcum_ingot_from_blasting_raw_orichalcum.json
   data/dragonquestminecraft/recipes/orichalcum_ingot_from_smelting_raw_orichalcum.json
+  data/dragonquestminecraft/recipes/strong_medicine.json
+  data/dragonquestminecraft/recipes/superior_medicine.json
   data/forge/
   data/forge/loot_modifiers/
   data/forge/loot_modifiers/global_loot_modifiers.json
@@ -282,6 +295,9 @@ Writing Output: /Users/celian/Documents/Projets/dragon-quest-minecraft/build/reo
   dragonquestminecraft/DragonQuestMinecraft.class
   dragonquestminecraft/block/
   dragonquestminecraft/block/ModBlocks.class
+  dragonquestminecraft/effect/
+  dragonquestminecraft/effect/ModEffects.class
+  dragonquestminecraft/effect/YggdrasilBlessingEffect.class
   dragonquestminecraft/entity/
   dragonquestminecraft/entity/ModEntities.class
   dragonquestminecraft/entity/animations/
@@ -293,10 +309,12 @@ Writing Output: /Users/celian/Documents/Projets/dragon-quest-minecraft/build/reo
   dragonquestminecraft/entity/custom/
   dragonquestminecraft/entity/custom/SlimeEntity.class
   dragonquestminecraft/event/
+  dragonquestminecraft/event/ForgeEvents.class
   dragonquestminecraft/event/ModEventBusClientEvents.class
   dragonquestminecraft/event/ModEventBusEvents.class
   dragonquestminecraft/item/
   dragonquestminecraft/item/ModCreativeModTabs.class
+  dragonquestminecraft/item/ModFoods.class
   dragonquestminecraft/item/ModItemWithDescription.class
   dragonquestminecraft/item/ModItems.class
   dragonquestminecraft/loot/

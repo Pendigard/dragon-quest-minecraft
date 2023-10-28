@@ -1,6 +1,7 @@
 {
   "item.dragonquestminecraft.slime_drop" : "Slime drop",
-  "tooltip.dragonquestminecraft.slime_drop.tooltip" : "A piece of blue jelly taken from the body of Slimes that is used as a crafting ingredient",
+  "tooltip.dragonquestminecraft.slime_drop.tooltip.shift" : "§7[Shift]",
+  "tooltip.dragonquestminecraft.slime_drop.tooltip" : "§7A piece of blue jelly taken from the body of Slimes that is used as a crafting ingredient",
   "item.dragonquestminecraft.raw_orichalcum" : "Raw Orichalcum",
   "item.dragonquestminecraft.orichalcum_ingot" : "Orichalcum ingot",
   "block.dragonquestminecraft.orichalcum_ore" : "Orichalcum ore",
@@ -35,5 +36,14 @@
   "item.dragonquestminecraft.metal_slime_sword" : "Metal Slime sword",
   "entity.dragonquestminecraft.custom.slime" : "Slime",
   "item.dragonquestminecraft.dq_slime_spawn_egg" : "Slime spawn egg",
+  "item.dragonquestminecraft.medicinal_herb" : "Medicinal herb",
+  "tooltip.dragonquestminecraft.medicinal_herb.tooltip" : "§7Herbs with healing properties that when consumed restore 2 hearts",
+  "item.dragonquestminecraft.strong_medicine" : "Strong medicine",
+  "tooltip.dragonquestminecraft.strong_medicine.tooltip" : "§7Remedy composed of several medicinal herbs which when consumed restores 4 hearts",
+  "item.dragonquestminecraft.superior_medicine" : "Superior medicine",
+  "tooltip.dragonquestminecraft.superior_medicine.tooltip" : "§7An excellent medicine which when consumed restores 6 hearts",
+  "item.dragonquestminecraft.yggdrasil_leaf" : "Yggdrasil leaf",
+  "tooltip.dragonquestminecraft.yggdrasil_leaf.tooltip" : "§7Leaf of the legendary world tree of Yggdrasil which resurrects the person who consumes it",
+  "effect.dragonquestminecraft.yggdrasil_blessing" : "Yggdrasil blessing",
   "creativetab.dragon_quest_tab" : "Dragon Quest"
 }

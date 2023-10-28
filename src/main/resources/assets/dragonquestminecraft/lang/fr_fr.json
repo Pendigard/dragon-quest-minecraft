@@ -1,5 +1,6 @@
 {
   "item.dragonquestminecraft.slime_drop" : "Glugoutte",
+  "tooltip.dragonquestminecraft.slime_drop.tooltip.shift" : "§7[Shift]",
   "tooltip.dragonquestminecraft.slime_drop.tooltip" : "§7Un morceau de gelée bleue prélevée du corps des gluants, utilisé comme ingrédient de fabrication",
   "item.dragonquestminecraft.raw_orichalcum" : "Orichalque brut",
   "item.dragonquestminecraft.orichalcum_ingot" : "Lingot d'Orichalque",
@@ -35,5 +36,14 @@
   "item.dragonquestminecraft.metal_slime_sword" : "Épée de gluant de métal",
   "entity.dragonquestminecraft.custom.slime" : "Gluant",
   "item.dragonquestminecraft.dq_slime_spawn_egg" : "Oeuf d'apparition de Gluant",
+  "item.dragonquestminecraft.medicinal_herb" : "Herbe médicinale",
+  "tooltip.dragonquestminecraft.medicinal_herb.tooltip" : "§7Herbes avec des propriété curative qui lorsqu'elles sont consommées redonnent 2 cœurs",
+  "item.dragonquestminecraft.strong_medicine" : "Remède puissant",
+  "tooltip.dragonquestminecraft.strong_medicine.tooltip" : "§7Remède composé de plusieurs herbes médicinal qui lorsqu'il est consommé redonne 4 cœurs",
+  "item.dragonquestminecraft.superior_medicine" : "Remède supérieur",
+  "tooltip.dragonquestminecraft.superior_medicine.tooltip" : "§7Un excellent médicament qui, une fois consommé restaure 6 cœurs",
+  "item.dragonquestminecraft.yggdrasil_leaf" : "Feuille de l'Yggdrasil",
+  "tooltip.dragonquestminecraft.yggdrasil_leaf.tooltip" : "§7Feuille du légendaire arbre monde Yggdrasil qui fait ressusciter la personne qui la consomme",
+  "effect.dragonquestminecraft.yggdrasil_blessing" : "Bénédiction de l'Yggdrasil",
   "creativetab.dragon_quest_tab" : "Dragon Quest"
 }

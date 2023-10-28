@@ -67,6 +67,6 @@ public class SlimeEntity extends Monster {
                 .add(Attributes.MOVEMENT_SPEED, 0.25D)
                 .add(Attributes.JUMP_STRENGTH, 6D)
                 .add(Attributes.ATTACK_DAMAGE, 1f)
-                .add(Attributes.ATTACK_KNOCKBACK, 0.5f);
+                .add(Attributes.ATTACK_KNOCKBACK, 0.25f);
     }
 }

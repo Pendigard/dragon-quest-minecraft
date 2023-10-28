@@ -14,8 +14,9 @@ public class ModEntities {
             DeferredRegister.create(ForgeRegistries.ENTITY_TYPES, DragonQuestMinecraft.MODID);
 
     public static final RegistryObject<EntityType<SlimeEntity>> SLIME =
-            ENTITY_TYPES.register("slime", () -> EntityType.Builder.of(SlimeEntity::new, MobCategory.CREATURE)
+            ENTITY_TYPES.register("slime", () -> EntityType.Builder.of(SlimeEntity::new, MobCategory.MONSTER)
                     .sized(1f, 1f).build("slime"));
+
     public static void register(IEventBus eventBus) {
         ENTITY_TYPES.register(eventBus);
 
