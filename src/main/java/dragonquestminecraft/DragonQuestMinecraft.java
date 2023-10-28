@@ -4,8 +4,10 @@ import com.mojang.logging.LogUtils;
 import dragonquestminecraft.block.ModBlocks;
 import dragonquestminecraft.effect.ModEffects;
 import dragonquestminecraft.entity.ModEntities;
+import dragonquestminecraft.entity.client.MetalSlimeRenderer;
 import dragonquestminecraft.entity.client.SlimeRenderer;
 import dragonquestminecraft.entity.client.SheSlimeRenderer;
+import dragonquestminecraft.entity.custom.MetalSlimeEntity;
 import dragonquestminecraft.item.ModCreativeModTabs;
 import dragonquestminecraft.item.ModItems;
 import dragonquestminecraft.loot.ModLootModifiers;
@@ -93,6 +95,7 @@ public class DragonQuestMinecraft {
         {
             EntityRenderers.register(ModEntities.SLIME.get(), SlimeRenderer::new);
             EntityRenderers.register(ModEntities.SHESLIME.get(), SheSlimeRenderer::new);
+            EntityRenderers.register(ModEntities.METAL_SLIME.get(), MetalSlimeRenderer::new);
         }
     }
 }
