@@ -2,11 +2,16 @@ package dragonquestminecraft;
 
 import com.mojang.logging.LogUtils;
 import dragonquestminecraft.block.ModBlocks;
+import dragonquestminecraft.entity.ModEntities;
+import dragonquestminecraft.entity.client.SlimeRenderer;
 import dragonquestminecraft.item.ModCreativeModTabs;
 import dragonquestminecraft.item.ModItems;
 import dragonquestminecraft.loot.ModLootModifiers;
 import net.minecraft.client.Minecraft;
+import net.minecraft.client.renderer.entity.EntityRenderer;
+import net.minecraft.client.renderer.entity.EntityRenderers;
 import net.minecraft.core.registries.Registries;
+import net.minecraft.world.entity.Entity;
 import net.minecraft.world.food.FoodProperties;
 import net.minecraft.world.item.BlockItem;
 import net.minecraft.world.item.CreativeModeTab;
@@ -46,6 +51,7 @@ public class DragonQuestMinecraft {
         ModItems.register(modEventBus);
         ModBlocks.register(modEventBus);
         ModLootModifiers.register(modEventBus);
+        ModEntities.register(modEventBus);
 
         // Register the commonSetup method for modloading
         modEventBus.addListener(this::commonSetup);
@@ -82,7 +88,7 @@ public class DragonQuestMinecraft {
         @SubscribeEvent
         public static void onClientSetup(FMLClientSetupEvent event)
         {
-
+            EntityRenderers.register(ModEntities.SLIME.get(), SlimeRenderer::new);
         }
     }
 }
