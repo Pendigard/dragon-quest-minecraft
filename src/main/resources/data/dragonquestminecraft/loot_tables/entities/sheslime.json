@@ -34,7 +34,7 @@
       "bonus_rolls": 0.0,
       "conditions": [
         {
-          "chance": 0.05,
+          "chance": 0.1,
           "condition": "minecraft:random_chance_with_looting",
           "looting_multiplier": 0.025
         }
@@ -48,5 +48,5 @@
       "rolls": 1.0
     }
   ],
-  "random_sequence": "dragonquestminecraft:entities/slime"
+  "random_sequence": "dragonquestminecraft:entities/sheslime"
 }

@@ -73,6 +73,10 @@ public class ModItems {
             () -> new ForgeSpawnEggItem(ModEntities.SLIME, 0x00c9ff, 0x0083ff,
                     new Item.Properties()));
 
+    public static final RegistryObject<Item> SHESLIME_SPAWN_EGG = ITEMS.register("sheslime_spawn_egg",
+            () -> new ForgeSpawnEggItem(ModEntities.SHESLIME, 0xe69219, 0xb96408,
+                    new Item.Properties()));
+
     public static final RegistryObject<Item> MEDICINAL_HERB = ITEMS.register("medicinal_herb",
             () -> new ModItemWithDescription(new Item.Properties().food(ModFoods.MEDICINAL_HERB)));
 

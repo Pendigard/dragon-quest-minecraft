@@ -5,6 +5,7 @@ import dragonquestminecraft.block.ModBlocks;
 import dragonquestminecraft.effect.ModEffects;
 import dragonquestminecraft.entity.ModEntities;
 import dragonquestminecraft.entity.client.SlimeRenderer;
+import dragonquestminecraft.entity.client.SheSlimeRenderer;
 import dragonquestminecraft.item.ModCreativeModTabs;
 import dragonquestminecraft.item.ModItems;
 import dragonquestminecraft.loot.ModLootModifiers;
@@ -91,6 +92,7 @@ public class DragonQuestMinecraft {
         public static void onClientSetup(FMLClientSetupEvent event)
         {
             EntityRenderers.register(ModEntities.SLIME.get(), SlimeRenderer::new);
+            EntityRenderers.register(ModEntities.SHESLIME.get(), SheSlimeRenderer::new);
         }
     }
 }

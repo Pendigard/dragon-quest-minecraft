@@ -29,6 +29,23 @@
         }
       ],
       "rolls": 1.0
+    },
+    {
+      "bonus_rolls": 0.0,
+      "conditions": [
+        {
+          "chance": 0.05,
+          "condition": "minecraft:random_chance_with_looting",
+          "looting_multiplier": 0.025
+        }
+      ],
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "dragonquestminecraft:medicinal_herb"
+        }
+      ],
+      "rolls": 1.0
     }
   ],
   "random_sequence": "dragonquestminecraft:entities/slime"

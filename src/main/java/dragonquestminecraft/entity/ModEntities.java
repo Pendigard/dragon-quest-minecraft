@@ -2,6 +2,7 @@ package dragonquestminecraft.entity;
 
 import dragonquestminecraft.DragonQuestMinecraft;
 import dragonquestminecraft.entity.custom.SlimeEntity;
+import dragonquestminecraft.entity.custom.SheSlimeEntity;
 import net.minecraft.world.entity.EntityType;
 import net.minecraft.world.entity.MobCategory;
 import net.minecraftforge.eventbus.api.IEventBus;
@@ -15,6 +16,10 @@ public class ModEntities {
 
     public static final RegistryObject<EntityType<SlimeEntity>> SLIME =
             ENTITY_TYPES.register("slime", () -> EntityType.Builder.of(SlimeEntity::new, MobCategory.MONSTER)
+                    .sized(1f, 1f).build("slime"));
+
+    public static final RegistryObject<EntityType<SheSlimeEntity>> SHESLIME =
+            ENTITY_TYPES.register("sheslime", () -> EntityType.Builder.of(SheSlimeEntity::new, MobCategory.MONSTER)
                     .sized(1f, 1f).build("slime"));
 
     public static void register(IEventBus eventBus) {
