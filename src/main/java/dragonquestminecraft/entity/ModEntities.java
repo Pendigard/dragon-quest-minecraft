@@ -1,6 +1,7 @@
 package dragonquestminecraft.entity;
 
 import dragonquestminecraft.DragonQuestMinecraft;
+import dragonquestminecraft.entity.custom.GolemEntity;
 import dragonquestminecraft.entity.custom.MetalSlimeEntity;
 import dragonquestminecraft.entity.custom.SlimeEntity;
 import dragonquestminecraft.entity.custom.SheSlimeEntity;
@@ -26,6 +27,10 @@ public class ModEntities {
     public static final RegistryObject<EntityType<MetalSlimeEntity>> METAL_SLIME =
             ENTITY_TYPES.register("metal_slime", () -> EntityType.Builder.of(MetalSlimeEntity::new, MobCategory.MONSTER)
                     .sized(1f, 1f).build("slime"));
+
+    public static final RegistryObject<EntityType<GolemEntity>> GOLEM =
+            ENTITY_TYPES.register("golem", () -> EntityType.Builder.of(GolemEntity::new, MobCategory.MONSTER)
+                    .sized(3f, 5f).build("golem"));
 
     public static void register(IEventBus eventBus) {
         ENTITY_TYPES.register(eventBus);
