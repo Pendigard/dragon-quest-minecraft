@@ -3,6 +3,8 @@ package dragonquestminecraft.entity.client.slime;
 import com.mojang.blaze3d.vertex.PoseStack;
 import dragonquestminecraft.DragonQuestMinecraft;
 import dragonquestminecraft.entity.client.ModModelLayers;
+import dragonquestminecraft.entity.custom.MetalSlimeEntity;
+import dragonquestminecraft.entity.custom.SheSlimeEntity;
 import dragonquestminecraft.entity.custom.SlimeEntity;
 import net.minecraft.client.renderer.MultiBufferSource;
 import net.minecraft.client.renderer.entity.EntityRendererProvider;
@@ -18,7 +20,15 @@ public class SlimeRenderer extends MobRenderer<SlimeEntity, SlimeModel<SlimeEnti
 
     @Override
     public ResourceLocation getTextureLocation(SlimeEntity p_114482_) {
-        return new ResourceLocation(DragonQuestMinecraft.MODID, "textures/entity/slime.png");
+        if (p_114482_ instanceof SheSlimeEntity) {
+            return new ResourceLocation(DragonQuestMinecraft.MODID, "textures/entity/sheslime.png");
+        }
+        else if (p_114482_ instanceof MetalSlimeEntity) {
+            return new ResourceLocation(DragonQuestMinecraft.MODID, "textures/entity/metal_slime.png");
+        }
+        else {
+            return new ResourceLocation(DragonQuestMinecraft.MODID, "textures/entity/slime.png");
+        }
     }
 
     @Override

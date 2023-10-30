@@ -3,7 +3,10 @@ package dragonquestminecraft.entity.client.golem;
 import com.mojang.blaze3d.vertex.PoseStack;
 import dragonquestminecraft.DragonQuestMinecraft;
 import dragonquestminecraft.entity.client.ModModelLayers;
+import dragonquestminecraft.entity.custom.GlacialGolemEntity;
+import dragonquestminecraft.entity.custom.GoldGolemEntity;
 import dragonquestminecraft.entity.custom.GolemEntity;
+import dragonquestminecraft.entity.custom.StoneGolemEntity;
 import net.minecraft.client.renderer.MultiBufferSource;
 import net.minecraft.client.renderer.entity.EntityRendererProvider;
 import net.minecraft.client.renderer.entity.MobRenderer;
@@ -18,7 +21,18 @@ public class GolemRenderer extends MobRenderer<GolemEntity, GolemModel<GolemEnti
 
     @Override
     public ResourceLocation getTextureLocation(GolemEntity p_114482_) {
-        return new ResourceLocation(DragonQuestMinecraft.MODID, "textures/entity/golem.png");
+        if (p_114482_ instanceof StoneGolemEntity) {
+            return new ResourceLocation(DragonQuestMinecraft.MODID, "textures/entity/stone_golem.png");
+        }
+        else if (p_114482_ instanceof GlacialGolemEntity) {
+            return new ResourceLocation(DragonQuestMinecraft.MODID, "textures/entity/glacial_golem.png");
+        }
+        else if (p_114482_ instanceof GoldGolemEntity) {
+            return new ResourceLocation(DragonQuestMinecraft.MODID, "textures/entity/gold_golem.png");
+        }
+        else {
+            return new ResourceLocation(DragonQuestMinecraft.MODID, "textures/entity/golem.png");
+        }
     }
 
     @Override

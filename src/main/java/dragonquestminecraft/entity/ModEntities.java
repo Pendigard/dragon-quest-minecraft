@@ -1,10 +1,7 @@
 package dragonquestminecraft.entity;
 
 import dragonquestminecraft.DragonQuestMinecraft;
-import dragonquestminecraft.entity.custom.GolemEntity;
-import dragonquestminecraft.entity.custom.MetalSlimeEntity;
-import dragonquestminecraft.entity.custom.SlimeEntity;
-import dragonquestminecraft.entity.custom.SheSlimeEntity;
+import dragonquestminecraft.entity.custom.*;
 import net.minecraft.world.entity.EntityType;
 import net.minecraft.world.entity.MobCategory;
 import net.minecraftforge.eventbus.api.IEventBus;
@@ -30,6 +27,18 @@ public class ModEntities {
 
     public static final RegistryObject<EntityType<GolemEntity>> GOLEM =
             ENTITY_TYPES.register("golem", () -> EntityType.Builder.of(GolemEntity::new, MobCategory.MONSTER)
+                    .sized(3f, 5f).build("golem"));
+
+    public static final RegistryObject<EntityType<StoneGolemEntity>> STONE_GOLEM =
+            ENTITY_TYPES.register("stone_golem", () -> EntityType.Builder.of(StoneGolemEntity::new, MobCategory.MONSTER)
+                    .sized(3f, 5f).build("golem"));
+
+    public static final RegistryObject<EntityType<GlacialGolemEntity>> GLACIAL_GOLEM =
+            ENTITY_TYPES.register("glacial_golem", () -> EntityType.Builder.of(GlacialGolemEntity::new, MobCategory.MONSTER)
+                    .sized(3f, 5f).build("golem"));
+
+    public static final RegistryObject<EntityType<GoldGolemEntity>> GOLD_GOLEM =
+            ENTITY_TYPES.register("gold_golem", () -> EntityType.Builder.of(GoldGolemEntity::new, MobCategory.MONSTER)
                     .sized(3f, 5f).build("golem"));
 
     public static void register(IEventBus eventBus) {

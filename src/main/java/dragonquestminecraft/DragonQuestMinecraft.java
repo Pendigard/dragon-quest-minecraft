@@ -5,9 +5,7 @@ import dragonquestminecraft.block.ModBlocks;
 import dragonquestminecraft.effect.ModEffects;
 import dragonquestminecraft.entity.ModEntities;
 import dragonquestminecraft.entity.client.golem.GolemRenderer;
-import dragonquestminecraft.entity.client.slime.MetalSlimeRenderer;
 import dragonquestminecraft.entity.client.slime.SlimeRenderer;
-import dragonquestminecraft.entity.client.slime.SheSlimeRenderer;
 import dragonquestminecraft.item.ModCreativeModTabs;
 import dragonquestminecraft.item.ModItems;
 import dragonquestminecraft.loot.ModLootModifiers;
@@ -76,9 +74,12 @@ public class DragonQuestMinecraft {
         public static void onClientSetup(FMLClientSetupEvent event)
         {
             EntityRenderers.register(ModEntities.SLIME.get(), SlimeRenderer::new);
-            EntityRenderers.register(ModEntities.SHESLIME.get(), SheSlimeRenderer::new);
-            EntityRenderers.register(ModEntities.METAL_SLIME.get(), MetalSlimeRenderer::new);
+            EntityRenderers.register(ModEntities.SHESLIME.get(), SlimeRenderer::new);
+            EntityRenderers.register(ModEntities.METAL_SLIME.get(), SlimeRenderer::new);
             EntityRenderers.register(ModEntities.GOLEM.get(), GolemRenderer::new);
+            EntityRenderers.register(ModEntities.STONE_GOLEM.get(), GolemRenderer::new);
+            EntityRenderers.register(ModEntities.GLACIAL_GOLEM.get(), GolemRenderer::new);
+            EntityRenderers.register(ModEntities.GOLD_GOLEM.get(), GolemRenderer::new);
         }
     }
 }

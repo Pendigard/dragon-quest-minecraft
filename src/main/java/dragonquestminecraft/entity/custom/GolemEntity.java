@@ -100,11 +100,11 @@ public class GolemEntity extends Monster {
 
     public static AttributeSupplier.Builder createAttributes() {
         return Monster.createLivingAttributes()
-                .add(Attributes.MAX_HEALTH, 140D)
+                .add(Attributes.MAX_HEALTH, 150D)
                 .add(Attributes.ARMOR_TOUGHNESS, 4D)
                 .add(Attributes.KNOCKBACK_RESISTANCE, 1D)
                 .add(Attributes.FOLLOW_RANGE, 25D)
-                .add(Attributes.MOVEMENT_SPEED, 0.20D)
+                .add(Attributes.MOVEMENT_SPEED, 0.25D)
                 .add(Attributes.JUMP_STRENGTH, 2D)
                 .add(Attributes.ATTACK_DAMAGE, 7.5f)
                 .add(Attributes.ATTACK_KNOCKBACK, 1f);

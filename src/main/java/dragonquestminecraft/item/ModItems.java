@@ -85,6 +85,18 @@ public class ModItems {
             () -> new ForgeSpawnEggItem(ModEntities.GOLEM, 0xb67c3a, 0x936027,
                     new Item.Properties()));
 
+    public static final RegistryObject<Item> STONE_GOLEM_SPAWN_EGG = ITEMS.register("stone_golem_spawn_egg",
+            () -> new ForgeSpawnEggItem(ModEntities.STONE_GOLEM, 0x37555b, 0x23383c,
+                    new Item.Properties()));
+
+    public static final RegistryObject<Item> GLACIAL_GOLEM_SPAWN_EGG = ITEMS.register("glacial_golem_spawn_egg",
+            () -> new ForgeSpawnEggItem(ModEntities.GLACIAL_GOLEM, 0x30bce3, 0x7fd7f0,
+                    new Item.Properties()));
+
+    public static final RegistryObject<Item> GOLD_GOLEM_SPAWN_EGG = ITEMS.register("gold_golem_spawn_egg",
+            () -> new ForgeSpawnEggItem(ModEntities.GOLD_GOLEM, 0xd7cd3c, 0x8d7700,
+                    new Item.Properties()));
+
     public static final RegistryObject<Item> MEDICINAL_HERB = ITEMS.register("medicinal_herb",
             () -> new ModItemWithDescription(new Item.Properties().food(ModFoods.MEDICINAL_HERB)));
 

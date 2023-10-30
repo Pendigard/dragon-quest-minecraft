@@ -134,35 +134,27 @@ Conflicting propagated mapping for dragonquestminecraft/entity/ai/GolemAttackGoa
 Conflicting propagated mapping for dragonquestminecraft/entity/ai/GolemAttackGoal/stop()V from net/minecraft/world/entity/ai/goal/MeleeAttackGoal/stop()V: stop -> m_8041_
 Conflicting propagated mapping for dragonquestminecraft/entity/ai/GolemAttackGoal/start()V from net/minecraft/world/entity/ai/goal/MeleeAttackGoal/start()V: start -> m_8056_
 Conflicting propagated mapping for dragonquestminecraft/entity/ai/GolemAttackGoal/getTicksUntilNextAttack()I from net/minecraft/world/entity/ai/goal/MeleeAttackGoal/getTicksUntilNextAttack()I: getTicksUntilNextAttack -> m_25565_
-Conflicting propagated mapping for dragonquestminecraft/entity/client/slime/SheSlimeRenderer/render(Lnet/minecraft/world/entity/Entity;FFLcom/mojang/blaze3d/vertex/PoseStack;Lnet/minecraft/client/renderer/MultiBufferSource;I)V from net/minecraft/client/renderer/entity/MobRenderer/render(Lnet/minecraft/world/entity/Entity;FFLcom/mojang/blaze3d/vertex/PoseStack;Lnet/minecraft/client/renderer/MultiBufferSource;I)V: render -> m_7392_
-Conflicting propagated mapping for dragonquestminecraft/entity/client/slime/SheSlimeRenderer/render(Lnet/minecraft/world/entity/LivingEntity;FFLcom/mojang/blaze3d/vertex/PoseStack;Lnet/minecraft/client/renderer/MultiBufferSource;I)V from net/minecraft/client/renderer/entity/MobRenderer/render(Lnet/minecraft/world/entity/LivingEntity;FFLcom/mojang/blaze3d/vertex/PoseStack;Lnet/minecraft/client/renderer/MultiBufferSource;I)V: render -> m_7392_
-Conflicting propagated mapping for dragonquestminecraft/entity/client/slime/SheSlimeRenderer/render(Lnet/minecraft/world/entity/Mob;FFLcom/mojang/blaze3d/vertex/PoseStack;Lnet/minecraft/client/renderer/MultiBufferSource;I)V from net/minecraft/client/renderer/entity/MobRenderer/render(Lnet/minecraft/world/entity/Mob;FFLcom/mojang/blaze3d/vertex/PoseStack;Lnet/minecraft/client/renderer/MultiBufferSource;I)V: render -> m_7392_
-Conflicting propagated mapping for dragonquestminecraft/entity/client/slime/SheSlimeRenderer/getTextureLocation(Lnet/minecraft/world/entity/Entity;)Lnet/minecraft/resources/ResourceLocation; from net/minecraft/client/renderer/entity/EntityRenderer/getTextureLocation(Lnet/minecraft/world/entity/Entity;)Lnet/minecraft/resources/ResourceLocation;: getTextureLocation -> m_5478_
+Conflicting propagated mapping for dragonquestminecraft/entity/custom/SlimeEntity/tick()V from net/minecraft/world/entity/Mob/tick()V: tick -> m_8119_
 Conflicting propagated mapping for dragonquestminecraft/entity/custom/GolemEntity/tick()V from net/minecraft/world/entity/Mob/tick()V: tick -> m_8119_
 Conflicting propagated mapping for dragonquestminecraft/entity/custom/GolemEntity/defineSynchedData()V from net/minecraft/world/entity/Mob/defineSynchedData()V: defineSynchedData -> m_8097_
-Conflicting propagated mapping for dragonquestminecraft/entity/custom/SlimeEntity/tick()V from net/minecraft/world/entity/Mob/tick()V: tick -> m_8119_
-Conflicting propagated mapping for dragonquestminecraft/entity/custom/GolemEntity/registerGoals()V from net/minecraft/world/entity/Mob/registerGoals()V: registerGoals -> m_8099_
 Conflicting propagated mapping for dragonquestminecraft/entity/custom/SlimeEntity/registerGoals()V from net/minecraft/world/entity/Mob/registerGoals()V: registerGoals -> m_8099_
-Conflicting propagated mapping for dragonquestminecraft/entity/custom/GolemEntity/updateWalkAnimation(F)V from net/minecraft/world/entity/LivingEntity/updateWalkAnimation(F)V: updateWalkAnimation -> m_267689_
+Conflicting propagated mapping for dragonquestminecraft/entity/custom/GolemEntity/registerGoals()V from net/minecraft/world/entity/Mob/registerGoals()V: registerGoals -> m_8099_
 Conflicting propagated mapping for dragonquestminecraft/entity/custom/SlimeEntity/updateWalkAnimation(F)V from net/minecraft/world/entity/LivingEntity/updateWalkAnimation(F)V: updateWalkAnimation -> m_267689_
+Conflicting propagated mapping for dragonquestminecraft/entity/custom/GolemEntity/updateWalkAnimation(F)V from net/minecraft/world/entity/LivingEntity/updateWalkAnimation(F)V: updateWalkAnimation -> m_267689_
 Conflicting propagated mapping for net/minecraftforge/event/BuildCreativeModeTabContentsEvent/accept(Lnet/minecraft/world/item/ItemStack;Lnet/minecraft/world/item/CreativeModeTab$TabVisibility;)V from net/minecraft/world/item/CreativeModeTab$Output/accept(Lnet/minecraft/world/item/ItemStack;Lnet/minecraft/world/item/CreativeModeTab$TabVisibility;)V: accept -> m_246267_
 Conflicting propagated mapping for dragonquestminecraft/entity/custom/MetalSlimeEntity/registerGoals()V from dragonquestminecraft/entity/custom/SlimeEntity/registerGoals()V: registerGoals -> m_8099_
-Conflicting propagated mapping for dragonquestminecraft/entity/client/slime/MetalSlimeRenderer/render(Lnet/minecraft/world/entity/Entity;FFLcom/mojang/blaze3d/vertex/PoseStack;Lnet/minecraft/client/renderer/MultiBufferSource;I)V from net/minecraft/client/renderer/entity/MobRenderer/render(Lnet/minecraft/world/entity/Entity;FFLcom/mojang/blaze3d/vertex/PoseStack;Lnet/minecraft/client/renderer/MultiBufferSource;I)V: render -> m_7392_
-Conflicting propagated mapping for dragonquestminecraft/entity/client/slime/SlimeModel/root()Lnet/minecraft/client/model/geom/ModelPart; from net/minecraft/client/model/HierarchicalModel/root()Lnet/minecraft/client/model/geom/ModelPart;: root -> m_142109_
-Conflicting propagated mapping for dragonquestminecraft/entity/client/slime/MetalSlimeRenderer/render(Lnet/minecraft/world/entity/LivingEntity;FFLcom/mojang/blaze3d/vertex/PoseStack;Lnet/minecraft/client/renderer/MultiBufferSource;I)V from net/minecraft/client/renderer/entity/MobRenderer/render(Lnet/minecraft/world/entity/LivingEntity;FFLcom/mojang/blaze3d/vertex/PoseStack;Lnet/minecraft/client/renderer/MultiBufferSource;I)V: render -> m_7392_
-Conflicting propagated mapping for dragonquestminecraft/entity/client/slime/SlimeModel/setupAnim(Lnet/minecraft/world/entity/Entity;FFFFF)V from net/minecraft/client/model/EntityModel/setupAnim(Lnet/minecraft/world/entity/Entity;FFFFF)V: setupAnim -> m_6973_
-Conflicting propagated mapping for dragonquestminecraft/entity/client/slime/MetalSlimeRenderer/render(Lnet/minecraft/world/entity/Mob;FFLcom/mojang/blaze3d/vertex/PoseStack;Lnet/minecraft/client/renderer/MultiBufferSource;I)V from net/minecraft/client/renderer/entity/MobRenderer/render(Lnet/minecraft/world/entity/Mob;FFLcom/mojang/blaze3d/vertex/PoseStack;Lnet/minecraft/client/renderer/MultiBufferSource;I)V: render -> m_7392_
-Conflicting propagated mapping for dragonquestminecraft/entity/client/slime/SlimeModel/renderToBuffer(Lcom/mojang/blaze3d/vertex/PoseStack;Lcom/mojang/blaze3d/vertex/VertexConsumer;IIFFFF)V from net/minecraft/client/model/HierarchicalModel/renderToBuffer(Lcom/mojang/blaze3d/vertex/PoseStack;Lcom/mojang/blaze3d/vertex/VertexConsumer;IIFFFF)V: renderToBuffer -> m_7695_
-Conflicting propagated mapping for dragonquestminecraft/entity/client/slime/MetalSlimeRenderer/getTextureLocation(Lnet/minecraft/world/entity/Entity;)Lnet/minecraft/resources/ResourceLocation; from net/minecraft/client/renderer/entity/EntityRenderer/getTextureLocation(Lnet/minecraft/world/entity/Entity;)Lnet/minecraft/resources/ResourceLocation;: getTextureLocation -> m_5478_
 Conflicting propagated mapping for dragonquestminecraft/entity/client/slime/SlimeRenderer/render(Lnet/minecraft/world/entity/Entity;FFLcom/mojang/blaze3d/vertex/PoseStack;Lnet/minecraft/client/renderer/MultiBufferSource;I)V from net/minecraft/client/renderer/entity/MobRenderer/render(Lnet/minecraft/world/entity/Entity;FFLcom/mojang/blaze3d/vertex/PoseStack;Lnet/minecraft/client/renderer/MultiBufferSource;I)V: render -> m_7392_
 Conflicting propagated mapping for dragonquestminecraft/entity/client/slime/SlimeRenderer/render(Lnet/minecraft/world/entity/LivingEntity;FFLcom/mojang/blaze3d/vertex/PoseStack;Lnet/minecraft/client/renderer/MultiBufferSource;I)V from net/minecraft/client/renderer/entity/MobRenderer/render(Lnet/minecraft/world/entity/LivingEntity;FFLcom/mojang/blaze3d/vertex/PoseStack;Lnet/minecraft/client/renderer/MultiBufferSource;I)V: render -> m_7392_
-Conflicting propagated mapping for dragonquestminecraft/entity/client/slime/SlimeRenderer/render(Lnet/minecraft/world/entity/Mob;FFLcom/mojang/blaze3d/vertex/PoseStack;Lnet/minecraft/client/renderer/MultiBufferSource;I)V from net/minecraft/client/renderer/entity/MobRenderer/render(Lnet/minecraft/world/entity/Mob;FFLcom/mojang/blaze3d/vertex/PoseStack;Lnet/minecraft/client/renderer/MultiBufferSource;I)V: render -> m_7392_
-Conflicting propagated mapping for dragonquestminecraft/entity/client/slime/SlimeRenderer/getTextureLocation(Lnet/minecraft/world/entity/Entity;)Lnet/minecraft/resources/ResourceLocation; from net/minecraft/client/renderer/entity/EntityRenderer/getTextureLocation(Lnet/minecraft/world/entity/Entity;)Lnet/minecraft/resources/ResourceLocation;: getTextureLocation -> m_5478_
 Conflicting propagated mapping for dragonquestminecraft/entity/client/golem/GolemRenderer/render(Lnet/minecraft/world/entity/Entity;FFLcom/mojang/blaze3d/vertex/PoseStack;Lnet/minecraft/client/renderer/MultiBufferSource;I)V from net/minecraft/client/renderer/entity/MobRenderer/render(Lnet/minecraft/world/entity/Entity;FFLcom/mojang/blaze3d/vertex/PoseStack;Lnet/minecraft/client/renderer/MultiBufferSource;I)V: render -> m_7392_
 Conflicting propagated mapping for dragonquestminecraft/entity/client/golem/GolemRenderer/render(Lnet/minecraft/world/entity/LivingEntity;FFLcom/mojang/blaze3d/vertex/PoseStack;Lnet/minecraft/client/renderer/MultiBufferSource;I)V from net/minecraft/client/renderer/entity/MobRenderer/render(Lnet/minecraft/world/entity/LivingEntity;FFLcom/mojang/blaze3d/vertex/PoseStack;Lnet/minecraft/client/renderer/MultiBufferSource;I)V: render -> m_7392_
 Conflicting propagated mapping for dragonquestminecraft/entity/client/golem/GolemRenderer/render(Lnet/minecraft/world/entity/Mob;FFLcom/mojang/blaze3d/vertex/PoseStack;Lnet/minecraft/client/renderer/MultiBufferSource;I)V from net/minecraft/client/renderer/entity/MobRenderer/render(Lnet/minecraft/world/entity/Mob;FFLcom/mojang/blaze3d/vertex/PoseStack;Lnet/minecraft/client/renderer/MultiBufferSource;I)V: render -> m_7392_
-Conflicting propagated mapping for dragonquestminecraft/entity/client/golem/GolemModel/root()Lnet/minecraft/client/model/geom/ModelPart; from net/minecraft/client/model/HierarchicalModel/root()Lnet/minecraft/client/model/geom/ModelPart;: root -> m_142109_
+Conflicting propagated mapping for dragonquestminecraft/entity/client/slime/SlimeRenderer/render(Lnet/minecraft/world/entity/Mob;FFLcom/mojang/blaze3d/vertex/PoseStack;Lnet/minecraft/client/renderer/MultiBufferSource;I)V from net/minecraft/client/renderer/entity/MobRenderer/render(Lnet/minecraft/world/entity/Mob;FFLcom/mojang/blaze3d/vertex/PoseStack;Lnet/minecraft/client/renderer/MultiBufferSource;I)V: render -> m_7392_
 Conflicting propagated mapping for dragonquestminecraft/entity/client/golem/GolemRenderer/getTextureLocation(Lnet/minecraft/world/entity/Entity;)Lnet/minecraft/resources/ResourceLocation; from net/minecraft/client/renderer/entity/EntityRenderer/getTextureLocation(Lnet/minecraft/world/entity/Entity;)Lnet/minecraft/resources/ResourceLocation;: getTextureLocation -> m_5478_
+Conflicting propagated mapping for dragonquestminecraft/entity/client/slime/SlimeRenderer/getTextureLocation(Lnet/minecraft/world/entity/Entity;)Lnet/minecraft/resources/ResourceLocation; from net/minecraft/client/renderer/entity/EntityRenderer/getTextureLocation(Lnet/minecraft/world/entity/Entity;)Lnet/minecraft/resources/ResourceLocation;: getTextureLocation -> m_5478_
+Conflicting propagated mapping for dragonquestminecraft/entity/client/slime/SlimeModel/root()Lnet/minecraft/client/model/geom/ModelPart; from net/minecraft/client/model/HierarchicalModel/root()Lnet/minecraft/client/model/geom/ModelPart;: root -> m_142109_
+Conflicting propagated mapping for dragonquestminecraft/entity/client/slime/SlimeModel/setupAnim(Lnet/minecraft/world/entity/Entity;FFFFF)V from net/minecraft/client/model/EntityModel/setupAnim(Lnet/minecraft/world/entity/Entity;FFFFF)V: setupAnim -> m_6973_
+Conflicting propagated mapping for dragonquestminecraft/entity/client/golem/GolemModel/root()Lnet/minecraft/client/model/geom/ModelPart; from net/minecraft/client/model/HierarchicalModel/root()Lnet/minecraft/client/model/geom/ModelPart;: root -> m_142109_
+Conflicting propagated mapping for dragonquestminecraft/entity/client/slime/SlimeModel/renderToBuffer(Lcom/mojang/blaze3d/vertex/PoseStack;Lcom/mojang/blaze3d/vertex/VertexConsumer;IIFFFF)V from net/minecraft/client/model/HierarchicalModel/renderToBuffer(Lcom/mojang/blaze3d/vertex/PoseStack;Lcom/mojang/blaze3d/vertex/VertexConsumer;IIFFFF)V: renderToBuffer -> m_7695_
 Conflicting propagated mapping for dragonquestminecraft/entity/client/golem/GolemModel/setupAnim(Lnet/minecraft/world/entity/Entity;FFFFF)V from net/minecraft/client/model/EntityModel/setupAnim(Lnet/minecraft/world/entity/Entity;FFFFF)V: setupAnim -> m_6973_
 Conflicting propagated mapping for dragonquestminecraft/entity/client/golem/GolemModel/renderToBuffer(Lcom/mojang/blaze3d/vertex/PoseStack;Lcom/mojang/blaze3d/vertex/VertexConsumer;IIFFFF)V from net/minecraft/client/model/HierarchicalModel/renderToBuffer(Lcom/mojang/blaze3d/vertex/PoseStack;Lcom/mojang/blaze3d/vertex/VertexConsumer;IIFFFF)V: renderToBuffer -> m_7695_
 Conflicting propagated mapping for net/minecraft/world/entity/LivingEntity/lambda$addAdditionalSaveData$3(Lnet/minecraft/nbt/CompoundTag;Lnet/minecraft/nbt/Tag;)V from net/minecraft/world/entity/player/Player/lambda$addAdditionalSaveData$3(Lnet/minecraft/nbt/CompoundTag;Lnet/minecraft/nbt/Tag;)V: lambda$addAdditionalSaveData$3 -> m_219754_
@@ -191,6 +183,8 @@ Writing Output: /Users/celian/Documents/Projets/dragon-quest-minecraft/build/reo
   assets/dragonquestminecraft/models/item/dq_slime_spawn_egg.json
   assets/dragonquestminecraft/models/item/equable_emerald.json
   assets/dragonquestminecraft/models/item/ethereal_stone.json
+  assets/dragonquestminecraft/models/item/glacial_golem_spawn_egg.json
+  assets/dragonquestminecraft/models/item/gold_golem_spawn_egg.json
   assets/dragonquestminecraft/models/item/golem_spawn_egg.json
   assets/dragonquestminecraft/models/item/magic_beast_hide.json
   assets/dragonquestminecraft/models/item/magic_beast_horn.json
@@ -210,6 +204,7 @@ Writing Output: /Users/celian/Documents/Projets/dragon-quest-minecraft/build/reo
   assets/dragonquestminecraft/models/item/sheslime_spawn_egg.json
   assets/dragonquestminecraft/models/item/slime_crown.json
   assets/dragonquestminecraft/models/item/slime_drop.json
+  assets/dragonquestminecraft/models/item/stone_golem_spawn_egg.json
   assets/dragonquestminecraft/models/item/strong_medicine.json
   assets/dragonquestminecraft/models/item/sunny_citrine.json
   assets/dragonquestminecraft/models/item/superior_medicine.json
@@ -218,10 +213,13 @@ Writing Output: /Users/celian/Documents/Projets/dragon-quest-minecraft/build/reo
   assets/dragonquestminecraft/textures/block/
   assets/dragonquestminecraft/textures/block/orichalcum_ore.png
   assets/dragonquestminecraft/textures/entity/
+  assets/dragonquestminecraft/textures/entity/glacial_golem.png
+  assets/dragonquestminecraft/textures/entity/gold_golem.png
   assets/dragonquestminecraft/textures/entity/golem.png
   assets/dragonquestminecraft/textures/entity/metal_slime.png
   assets/dragonquestminecraft/textures/entity/sheslime.png
   assets/dragonquestminecraft/textures/entity/slime.png
+  assets/dragonquestminecraft/textures/entity/stone_golem.png
   assets/dragonquestminecraft/textures/entity/texture.png
   assets/dragonquestminecraft/textures/item/
   assets/dragonquestminecraft/textures/item/artful_amethyst.png
@@ -347,15 +345,16 @@ Writing Output: /Users/celian/Documents/Projets/dragon-quest-minecraft/build/reo
   dragonquestminecraft/entity/client/golem/GolemModel.class
   dragonquestminecraft/entity/client/golem/GolemRenderer.class
   dragonquestminecraft/entity/client/slime/
-  dragonquestminecraft/entity/client/slime/MetalSlimeRenderer.class
-  dragonquestminecraft/entity/client/slime/SheSlimeRenderer.class
   dragonquestminecraft/entity/client/slime/SlimeModel.class
   dragonquestminecraft/entity/client/slime/SlimeRenderer.class
   dragonquestminecraft/entity/custom/
+  dragonquestminecraft/entity/custom/GlacialGolemEntity.class
+  dragonquestminecraft/entity/custom/GoldGolemEntity.class
   dragonquestminecraft/entity/custom/GolemEntity.class
   dragonquestminecraft/entity/custom/MetalSlimeEntity.class
   dragonquestminecraft/entity/custom/SheSlimeEntity.class
   dragonquestminecraft/entity/custom/SlimeEntity.class
+  dragonquestminecraft/entity/custom/StoneGolemEntity.class
   dragonquestminecraft/event/
   dragonquestminecraft/event/ForgeEvents.class
   dragonquestminecraft/event/ModEventBusClientEvents.class
