@@ -6,6 +6,7 @@ import net.minecraft.world.entity.Pose;
 import net.minecraft.world.entity.ai.attributes.AttributeSupplier;
 import net.minecraft.world.entity.ai.attributes.Attributes;
 import net.minecraft.world.entity.ai.goal.*;
+import net.minecraft.world.entity.ai.goal.target.HurtByTargetGoal;
 import net.minecraft.world.entity.ai.goal.target.NearestAttackableTargetGoal;
 import net.minecraft.world.entity.monster.Monster;
 import net.minecraft.world.entity.player.Player;
@@ -57,6 +58,7 @@ public class SlimeEntity extends Monster {
         this.goalSelector.addGoal(1, new WaterAvoidingRandomStrollGoal(this, 1D));
         this.goalSelector.addGoal(2, new LookAtPlayerGoal(this, Player.class, 3f));
         this.goalSelector.addGoal(3, new RandomLookAroundGoal(this));
+        this.targetSelector.addGoal(0, new HurtByTargetGoal(this));
 
     }
 

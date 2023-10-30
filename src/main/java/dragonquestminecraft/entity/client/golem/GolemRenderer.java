@@ -18,7 +18,7 @@ public class GolemRenderer extends MobRenderer<GolemEntity, GolemModel<GolemEnti
 
     @Override
     public ResourceLocation getTextureLocation(GolemEntity p_114482_) {
-        return new ResourceLocation(DragonQuestMinecraft.MODID, "textures/entity/texture.png");
+        return new ResourceLocation(DragonQuestMinecraft.MODID, "textures/entity/golem.png");
     }
 
     @Override

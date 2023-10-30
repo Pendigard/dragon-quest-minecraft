@@ -40,6 +40,8 @@
   "item.dragonquestminecraft.sheslime_spawn_egg" : "She slime spawn egg",
   "entity.dragonquestminecraft.metal_slime" : "Metal slime",
   "item.dragonquestminecraft.metal_slime_spawn_egg" : "Metal slime spawn egg",
+  "entity.dragonquestminecraft.golem" : "Golem",
+  "item.dragonquestminecraft.golem_spawn_egg" : "Golem spawn egg",
   "item.dragonquestminecraft.medicinal_herb" : "Medicinal herb",
   "tooltip.dragonquestminecraft.medicinal_herb.tooltip" : "§7Herbs with healing properties that when consumed restore 2 hearts",
   "item.dragonquestminecraft.strong_medicine" : "Strong medicine",

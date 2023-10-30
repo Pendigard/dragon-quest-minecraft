@@ -47,6 +47,7 @@ public class ModCreativeModTabs {
                                 p_259752_.accept(ModItems.SLIME_SPAWN_EGG.get());
                                 p_259752_.accept(ModItems.SHESLIME_SPAWN_EGG.get());
                                 p_259752_.accept(ModItems.METAL_SLIME_SPAWN_EGG.get());
+                                p_259752_.accept(ModItems.GOLEM_SPAWN_EGG.get());
                             })
                             .build());
     public static void register(IEventBus eventBus) {
