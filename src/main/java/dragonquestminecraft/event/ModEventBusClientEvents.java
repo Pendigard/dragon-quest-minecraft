@@ -3,6 +3,7 @@ package dragonquestminecraft.event;
 import dragonquestminecraft.DragonQuestMinecraft;
 import dragonquestminecraft.entity.client.ModModelLayers;
 import dragonquestminecraft.entity.client.golem.GolemModel;
+import dragonquestminecraft.entity.client.mischievous_mole.MischievousMoleModel;
 import dragonquestminecraft.entity.client.slime.SlimeModel;
 import net.minecraftforge.api.distmarker.Dist;
 import net.minecraftforge.client.event.EntityRenderersEvent;
@@ -14,5 +15,6 @@ public class ModEventBusClientEvents {
     public static void registerLayer(EntityRenderersEvent.RegisterLayerDefinitions event) {
         event.registerLayerDefinition(ModModelLayers.SLIME_LAYER, SlimeModel::createBodyLayer);
         event.registerLayerDefinition(ModModelLayers.GOLEM_LAYER, GolemModel::createBodyLayer);
+        event.registerLayerDefinition(ModModelLayers.MISCHIEVOUS_MOLE_LAYER, MischievousMoleModel::createBodyLayer);
     }
 }

@@ -9,4 +9,7 @@ public class ModModelLayers {
             new ResourceLocation(DragonQuestMinecraft.MODID, "slime_layer"), "main");
     public static final ModelLayerLocation GOLEM_LAYER = new ModelLayerLocation(
             new ResourceLocation(DragonQuestMinecraft.MODID, "golem_layer"), "main");
+
+    public static final ModelLayerLocation MISCHIEVOUS_MOLE_LAYER = new ModelLayerLocation(
+            new ResourceLocation(DragonQuestMinecraft.MODID, "mischievous_mole_layer"), "main");
 }

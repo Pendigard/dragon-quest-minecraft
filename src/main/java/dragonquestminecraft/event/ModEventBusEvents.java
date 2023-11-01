@@ -18,5 +18,6 @@ public class ModEventBusEvents {
         event.put(ModEntities.STONE_GOLEM.get(), StoneGolemEntity.createAttributes().build());
         event.put(ModEntities.GLACIAL_GOLEM.get(), GlacialGolemEntity.createAttributes().build());
         event.put(ModEntities.GOLD_GOLEM.get(), GoldGolemEntity.createAttributes().build());
+        event.put(ModEntities.MISCHIEVOUS_MOLE.get(), MischievousMoleEntity.createAttributes().build());
     }
 }

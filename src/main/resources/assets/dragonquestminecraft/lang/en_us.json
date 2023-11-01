@@ -48,6 +48,8 @@
   "item.dragonquestminecraft.glacial_golem_spawn_egg" : "Glacial golem spawn egg",
   "entity.dragonquestminecraft.gold_golem" : "Gold golem",
   "item.dragonquestminecraft.gold_golem_spawn_egg" : "Gold golem spawn egg",
+  "entity.dragonquestminecraft.mischievous_mole" : "Mischievous mole",
+  "item.dragonquestminecraft.mischievous_mole_spawn_egg" : "Mischievous mole spawn egg",
   "item.dragonquestminecraft.medicinal_herb" : "Medicinal herb",
   "tooltip.dragonquestminecraft.medicinal_herb.tooltip" : "§7Herbs with healing properties that when consumed restore 2 hearts",
   "item.dragonquestminecraft.strong_medicine" : "Strong medicine",

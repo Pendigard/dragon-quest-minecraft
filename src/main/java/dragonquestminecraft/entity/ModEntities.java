@@ -41,6 +41,10 @@ public class ModEntities {
             ENTITY_TYPES.register("gold_golem", () -> EntityType.Builder.of(GoldGolemEntity::new, MobCategory.MONSTER)
                     .sized(3f, 5f).build("golem"));
 
+    public static final RegistryObject<EntityType<MischievousMoleEntity>> MISCHIEVOUS_MOLE =
+            ENTITY_TYPES.register("mischievous_mole", () -> EntityType.Builder.of(MischievousMoleEntity::new, MobCategory.MONSTER)
+                    .sized(1.2f, 1.8f).build("mischievous_mole"));
+
     public static void register(IEventBus eventBus) {
         ENTITY_TYPES.register(eventBus);
 

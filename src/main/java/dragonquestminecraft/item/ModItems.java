@@ -97,6 +97,10 @@ public class ModItems {
             () -> new ForgeSpawnEggItem(ModEntities.GOLD_GOLEM, 0xd7cd3c, 0x8d7700,
                     new Item.Properties()));
 
+    public static final RegistryObject<Item> MISCHIEVOUS_MOLE_SPAWN_EGG = ITEMS.register("mischievous_mole_spawn_egg",
+            () -> new ForgeSpawnEggItem(ModEntities.MISCHIEVOUS_MOLE, 0x9e9e9e, 0x343434,
+                    new Item.Properties()));
+
     public static final RegistryObject<Item> MEDICINAL_HERB = ITEMS.register("medicinal_herb",
             () -> new ModItemWithDescription(new Item.Properties().food(ModFoods.MEDICINAL_HERB)));
 

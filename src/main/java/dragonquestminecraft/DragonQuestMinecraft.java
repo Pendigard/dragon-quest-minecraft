@@ -5,6 +5,7 @@ import dragonquestminecraft.block.ModBlocks;
 import dragonquestminecraft.effect.ModEffects;
 import dragonquestminecraft.entity.ModEntities;
 import dragonquestminecraft.entity.client.golem.GolemRenderer;
+import dragonquestminecraft.entity.client.mischievous_mole.MischievousMoleRenderer;
 import dragonquestminecraft.entity.client.slime.SlimeRenderer;
 import dragonquestminecraft.item.ModCreativeModTabs;
 import dragonquestminecraft.item.ModItems;
@@ -80,6 +81,7 @@ public class DragonQuestMinecraft {
             EntityRenderers.register(ModEntities.STONE_GOLEM.get(), GolemRenderer::new);
             EntityRenderers.register(ModEntities.GLACIAL_GOLEM.get(), GolemRenderer::new);
             EntityRenderers.register(ModEntities.GOLD_GOLEM.get(), GolemRenderer::new);
+            EntityRenderers.register(ModEntities.MISCHIEVOUS_MOLE.get(), MischievousMoleRenderer::new);
         }
     }
 }

@@ -18,7 +18,6 @@ import net.minecraft.world.entity.Entity;
 
 
 public class GolemModel<T extends Entity> extends HierarchicalModel<T>  {
-	// This layer location should be baked with EntityRendererProvider.Context in the entity renderer and passed into this model's constructor
 	public static final ModelLayerLocation LAYER_LOCATION = new ModelLayerLocation(new ResourceLocation("modid", "golem"), "main");
 	private final ModelPart golem;
 	private final ModelPart head;

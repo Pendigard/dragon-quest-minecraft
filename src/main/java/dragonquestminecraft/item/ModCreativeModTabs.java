@@ -51,6 +51,7 @@ public class ModCreativeModTabs {
                                 p_259752_.accept(ModItems.STONE_GOLEM_SPAWN_EGG.get());
                                 p_259752_.accept(ModItems.GLACIAL_GOLEM_SPAWN_EGG.get());
                                 p_259752_.accept(ModItems.GOLD_GOLEM_SPAWN_EGG.get());
+                                p_259752_.accept(ModItems.MISCHIEVOUS_MOLE_SPAWN_EGG.get());
                             })
                             .build());
     public static void register(IEventBus eventBus) {

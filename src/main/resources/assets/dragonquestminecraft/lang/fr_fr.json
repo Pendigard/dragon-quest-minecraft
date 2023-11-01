@@ -48,6 +48,8 @@
   "item.dragonquestminecraft.glacial_golem_spawn_egg" : "Oeuf d'apparition de golem de glace",
   "entity.dragonquestminecraft.gold_golem" : "Golem d'or",
   "item.dragonquestminecraft.gold_golem_spawn_egg" : "Oeuf d'apparition de golem d'or",
+  "entity.dragonquestminecraft.mischievous_mole" : "Pataupe",
+  "item.dragonquestminecraft.mischievous_mole_spawn_egg" : "Oeuf d'apparition de Pataupe",
   "item.dragonquestminecraft.medicinal_herb" : "Herbe médicinale",
   "tooltip.dragonquestminecraft.medicinal_herb.tooltip" : "§7Herbes avec des propriétées curatives qui lorsqu'elles sont consommées redonnent 2 cœurs",
   "item.dragonquestminecraft.strong_medicine" : "Remède puissant",

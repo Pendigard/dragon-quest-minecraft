@@ -94,7 +94,6 @@ public class GolemEntity extends Monster {
         this.goalSelector.addGoal(1, new WaterAvoidingRandomStrollGoal(this, 1D));
         this.goalSelector.addGoal(2, new LookAtPlayerGoal(this, Player.class, 3f));
         this.goalSelector.addGoal(3, new RandomLookAroundGoal(this));
-
         this.targetSelector.addGoal(0, new HurtByTargetGoal(this));
     }
 
