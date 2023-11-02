@@ -1,6 +1,10 @@
 package dragonquestminecraft.entity.custom;
 
+import net.minecraft.core.BlockPos;
+import net.minecraft.util.RandomSource;
+import net.minecraft.world.Difficulty;
 import net.minecraft.world.entity.EntityType;
+import net.minecraft.world.entity.MobSpawnType;
 import net.minecraft.world.entity.ai.attributes.AttributeSupplier;
 import net.minecraft.world.entity.ai.attributes.Attributes;
 import net.minecraft.world.entity.ai.goal.*;
@@ -8,6 +12,7 @@ import net.minecraft.world.entity.ai.goal.target.NearestAttackableTargetGoal;
 import net.minecraft.world.entity.monster.Monster;
 import net.minecraft.world.entity.player.Player;
 import net.minecraft.world.level.Level;
+import net.minecraft.world.level.ServerLevelAccessor;
 
 public class MetalSlimeEntity extends SlimeEntity {
     public MetalSlimeEntity(EntityType<? extends Monster> p_33002_, Level p_33003_) {
@@ -35,5 +40,17 @@ public class MetalSlimeEntity extends SlimeEntity {
                 .add(Attributes.JUMP_STRENGTH, 6D)
                 .add(Attributes.ATTACK_DAMAGE, 1.5f)
                 .add(Attributes.ATTACK_KNOCKBACK, 0.25f);
+    }
+
+    public static boolean canMetalSpawn(EntityType<MetalSlimeEntity> entityType, ServerLevelAccessor level, MobSpawnType spawnType, BlockPos pos, RandomSource random) {
+        if (level.getDifficulty() != Difficulty.PEACEFUL) {
+            if (level.getLevelData().isRaining() || level.getLevelData().isThundering()) {
+                return true;
+            }
+            else {
+                return random.nextInt()%2 == 0;
+            }
+        }
+        return false;
     }
 }

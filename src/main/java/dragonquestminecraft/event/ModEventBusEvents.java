@@ -3,12 +3,41 @@ package dragonquestminecraft.event;
 import dragonquestminecraft.DragonQuestMinecraft;
 import dragonquestminecraft.entity.ModEntities;
 import dragonquestminecraft.entity.custom.*;
+import net.minecraft.world.entity.SpawnPlacements;
+import net.minecraft.world.level.levelgen.Heightmap;
 import net.minecraftforge.event.entity.EntityAttributeCreationEvent;
+import net.minecraftforge.event.entity.SpawnPlacementRegisterEvent;
 import net.minecraftforge.eventbus.api.SubscribeEvent;
 import net.minecraftforge.fml.common.Mod;
 
 @Mod.EventBusSubscriber(modid = DragonQuestMinecraft.MODID, bus = Mod.EventBusSubscriber.Bus.MOD)
 public class ModEventBusEvents {
+    @SubscribeEvent
+    public static void registerSpawnPlacements(SpawnPlacementRegisterEvent event) {
+        event.register(
+                ModEntities.SLIME.get(),
+                SpawnPlacements.Type.ON_GROUND,
+                Heightmap.Types.MOTION_BLOCKING_NO_LEAVES,
+                SlimeEntity::canSpawn,
+                SpawnPlacementRegisterEvent.Operation.OR
+        );
+        event.register(
+                ModEntities.SHESLIME.get(),
+                SpawnPlacements.Type.ON_GROUND,
+                Heightmap.Types.MOTION_BLOCKING_NO_LEAVES,
+                SheSlimeEntity::canSheSpawn,
+                SpawnPlacementRegisterEvent.Operation.OR
+        );
+        event.register(
+                ModEntities.METAL_SLIME.get(),
+                SpawnPlacements.Type.ON_GROUND,
+                Heightmap.Types.MOTION_BLOCKING_NO_LEAVES,
+                MetalSlimeEntity::canMetalSpawn,
+                SpawnPlacementRegisterEvent.Operation.OR
+        );
+    }
+
+
     @SubscribeEvent
     public static void registerAttributes(EntityAttributeCreationEvent event) {
         event.put(ModEntities.SLIME.get(), SlimeEntity.createAttributes().build());
