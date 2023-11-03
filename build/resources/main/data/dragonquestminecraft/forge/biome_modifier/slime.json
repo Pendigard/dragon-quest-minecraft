@@ -3,7 +3,7 @@
   "biomes": ["minecraft:plains", "minecraft:forest", "minecraft:birch_forest"],
   "spawners": {
     "type": "dragonquestminecraft:slime",
-    "weight": 100,
+    "weight": 150,
     "minCount": 1,
     "maxCount": 5
   }

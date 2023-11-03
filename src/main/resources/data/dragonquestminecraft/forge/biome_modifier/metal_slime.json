@@ -3,7 +3,7 @@
   "biomes": "#minecraft:is_overworld",
   "spawners": {
     "type": "dragonquestminecraft:metal_slime",
-    "weight": 10,
+    "weight": 7,
     "minCount": 1,
     "maxCount": 3
   }

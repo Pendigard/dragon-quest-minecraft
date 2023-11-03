@@ -1,11 +1,15 @@
 package dragonquestminecraft.entity.custom;
 
 import dragonquestminecraft.entity.ai.MischievousMoleAttackGoal;
+import net.minecraft.core.BlockPos;
 import net.minecraft.network.syncher.EntityDataAccessor;
 import net.minecraft.network.syncher.EntityDataSerializers;
 import net.minecraft.network.syncher.SynchedEntityData;
+import net.minecraft.util.RandomSource;
+import net.minecraft.world.Difficulty;
 import net.minecraft.world.entity.AnimationState;
 import net.minecraft.world.entity.EntityType;
+import net.minecraft.world.entity.MobSpawnType;
 import net.minecraft.world.entity.Pose;
 import net.minecraft.world.entity.ai.attributes.AttributeSupplier;
 import net.minecraft.world.entity.ai.attributes.Attributes;
@@ -15,6 +19,7 @@ import net.minecraft.world.entity.ai.goal.target.NearestAttackableTargetGoal;
 import net.minecraft.world.entity.monster.Monster;
 import net.minecraft.world.entity.player.Player;
 import net.minecraft.world.level.Level;
+import net.minecraft.world.level.ServerLevelAccessor;
 
 public class MischievousMoleEntity extends Monster {
 
@@ -106,5 +111,9 @@ public class MischievousMoleEntity extends Monster {
                 .add(Attributes.JUMP_STRENGTH, 3D)
                 .add(Attributes.ATTACK_DAMAGE, 2f)
                 .add(Attributes.ATTACK_KNOCKBACK, 0.25f);
+    }
+
+    public static boolean canSpawn(EntityType<MischievousMoleEntity> entityType, ServerLevelAccessor level, MobSpawnType spawnType, BlockPos pos, RandomSource random) {
+        return level.getDifficulty() != Difficulty.PEACEFUL && pos.getY() <= 50;
     }
 }

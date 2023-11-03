@@ -1,6 +1,6 @@
 {
   "type": "forge:add_spawns",
-  "biomes": ["minecraft:savanna", "minecraft:savanna_plateau", "minecraft:windswept_savanna"],
+  "biomes": "#minecraft:is_savanna",
   "spawners": {
     "type": "dragonquestminecraft:sheslime",
     "weight": 150,

@@ -35,6 +35,41 @@ public class ModEventBusEvents {
                 MetalSlimeEntity::canMetalSpawn,
                 SpawnPlacementRegisterEvent.Operation.OR
         );
+        event.register(
+                ModEntities.GOLEM.get(),
+                SpawnPlacements.Type.ON_GROUND,
+                Heightmap.Types.MOTION_BLOCKING_NO_LEAVES,
+                GolemEntity::canSpawn,
+                SpawnPlacementRegisterEvent.Operation.OR
+        );
+        event.register(
+                ModEntities.GOLD_GOLEM.get(),
+                SpawnPlacements.Type.ON_GROUND,
+                Heightmap.Types.MOTION_BLOCKING_NO_LEAVES,
+                GoldGolemEntity::canGoldSpawn,
+                SpawnPlacementRegisterEvent.Operation.OR
+        );
+        event.register(
+                ModEntities.STONE_GOLEM.get(),
+                SpawnPlacements.Type.ON_GROUND,
+                Heightmap.Types.MOTION_BLOCKING_NO_LEAVES,
+                StoneGolemEntity::canStoneSpawn,
+                SpawnPlacementRegisterEvent.Operation.OR
+        );
+        event.register(
+                ModEntities.GLACIAL_GOLEM.get(),
+                SpawnPlacements.Type.ON_GROUND,
+                Heightmap.Types.MOTION_BLOCKING_NO_LEAVES,
+                GlacialGolemEntity::canGlacialSpawn,
+                SpawnPlacementRegisterEvent.Operation.OR
+        );
+        event.register(
+                ModEntities.MISCHIEVOUS_MOLE.get(),
+                SpawnPlacements.Type.ON_GROUND,
+                Heightmap.Types.MOTION_BLOCKING_NO_LEAVES,
+                MischievousMoleEntity::canSpawn,
+                SpawnPlacementRegisterEvent.Operation.OR
+        );
     }
 
 
