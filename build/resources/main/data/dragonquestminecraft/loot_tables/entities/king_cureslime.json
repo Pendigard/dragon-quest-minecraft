@@ -1,0 +1,94 @@
+{
+  "type": "minecraft:entity",
+  "pools": [
+    {
+    "bonus_rolls": 0.0,
+    "entries": [
+      {
+        "type": "minecraft:item",
+        "functions": [
+          {
+            "add": false,
+            "count": {
+              "type": "minecraft:uniform",
+              "max": 3.0,
+              "min": 0.0
+            },
+            "function": "minecraft:set_count"
+          },
+          {
+            "count": {
+              "type": "minecraft:uniform",
+              "max": 3.0,
+              "min": 0.0
+            },
+            "function": "minecraft:looting_enchant"
+          }
+        ],
+        "name": "dragonquestminecraft:slime_drop"
+      }
+    ],
+    "rolls": 1.0
+  },
+    {
+      "bonus_rolls": 0.0,
+      "conditions": [
+        {
+          "chance": 0.25,
+          "condition": "minecraft:random_chance_with_looting",
+          "looting_multiplier": 0.01
+        }
+      ],
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "dragonquestminecraft:slime_crown"
+        }
+      ],
+      "rolls": 1.0
+    },
+    {
+      "bonus_rolls": 0.0,
+      "conditions": [
+        {
+          "chance": 0.15,
+          "condition": "minecraft:random_chance_with_looting",
+          "looting_multiplier": 0.01
+        }
+      ],
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "dragonquestminecraft:medicinal_herb"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "dragonquestminecraft:strong_medicine"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "dragonquestminecraft:superior_medicine"
+        }
+      ],
+      "rolls": 1.0
+    },
+    {
+      "bonus_rolls": 0.0,
+      "conditions": [
+        {
+          "chance": 0.01,
+          "condition": "minecraft:random_chance_with_looting",
+          "looting_multiplier": 0.001
+        }
+      ],
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "dragonquestminecraft:yggdrasil_leaf"
+        }
+      ],
+      "rolls": 1.0
+    }
+    ],
+  "random_sequence": "dragonquestminecraft:entities/king_cureslime"
+}

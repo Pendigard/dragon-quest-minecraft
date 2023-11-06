@@ -3,6 +3,7 @@ package dragonquestminecraft.item;
 import dragonquestminecraft.DragonQuestMinecraft;
 import dragonquestminecraft.entity.ModEntities;
 import net.minecraft.world.item.Item;
+import net.minecraft.world.item.SwordItem;
 import net.minecraftforge.common.ForgeSpawnEggItem;
 import net.minecraftforge.eventbus.api.IEventBus;
 import net.minecraftforge.registries.DeferredRegister;
@@ -67,7 +68,7 @@ public class ModItems {
             () -> new ModItemWithDescription(new Item.Properties()));
 
     public static final RegistryObject<Item>  METAL_SLIME_SWORD = ITEMS.register("metal_slime_sword",
-            () -> new Item(new Item.Properties()));
+            () -> new SwordItem(ModToolTiers.METAL_SLIME, 0, 0, new Item.Properties()));
 
     public static final RegistryObject<Item> SLIME_SPAWN_EGG = ITEMS.register("dq_slime_spawn_egg",
             () -> new ForgeSpawnEggItem(ModEntities.SLIME, 0x00c9ff, 0x0083ff,
@@ -97,8 +98,28 @@ public class ModItems {
             () -> new ForgeSpawnEggItem(ModEntities.GOLD_GOLEM, 0xd7cd3c, 0x8d7700,
                     new Item.Properties()));
 
+    public static final RegistryObject<Item> KING_SLIME_SPAWN_EGG = ITEMS.register("king_slime_spawn_egg",
+            () -> new ForgeSpawnEggItem(ModEntities.KING_SLIME, 0x37a1e3, 0x780b92,
+                    new Item.Properties()));
+
+    public static final RegistryObject<Item> METAL_KING_SLIME_SPAWN_EGG = ITEMS.register("metal_king_slime_spawn_egg",
+            () -> new ForgeSpawnEggItem(ModEntities.METAL_KING_SLIME, 0xa7a7a7, 0x780b92,
+                    new Item.Properties()));
+
+    public static final RegistryObject<Item> KING_CURESLIME_SPAWN_EGG = ITEMS.register("king_cureslime_spawn_egg",
+            () -> new ForgeSpawnEggItem(ModEntities.KING_CURESLIME, 0x55e334, 0x780b92,
+                    new Item.Properties()));
+
     public static final RegistryObject<Item> MISCHIEVOUS_MOLE_SPAWN_EGG = ITEMS.register("mischievous_mole_spawn_egg",
             () -> new ForgeSpawnEggItem(ModEntities.MISCHIEVOUS_MOLE, 0x9e9e9e, 0x343434,
+                    new Item.Properties()));
+
+    public static final RegistryObject<Item> BUBBLE_SLIME_SPAWN_EGG = ITEMS.register("bubble_slime_spawn_egg",
+            () -> new ForgeSpawnEggItem(ModEntities.BUBBLE_SLIME, 0x3ab236, 0x57c754,
+                    new Item.Properties()));
+
+    public static final RegistryObject<Item> LIQUID_METAL_SLIME_SPAWN_EGG = ITEMS.register("liquid_metal_slime_spawn_egg",
+            () -> new ForgeSpawnEggItem(ModEntities.LIQUID_METAL_SLIME, 0xb4b4b4, 0xd6d6d6,
                     new Item.Properties()));
 
     public static final RegistryObject<Item> MEDICINAL_HERB = ITEMS.register("medicinal_herb",

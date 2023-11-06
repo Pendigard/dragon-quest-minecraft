@@ -12,7 +12,6 @@ import net.minecraft.world.level.Level;
 import net.minecraft.world.level.ServerLevelAccessor;
 
 public class SheSlimeEntity extends SlimeEntity {
-    // The she slime extends the slime entity to get the same model
     public SheSlimeEntity(EntityType<? extends Monster> p_33002_, Level p_33003_) {
         super(p_33002_, p_33003_);
     }

@@ -39,7 +39,7 @@ public class MetalSlimeEntity extends SlimeEntity {
                 .add(Attributes.MOVEMENT_SPEED, 0.25D)
                 .add(Attributes.JUMP_STRENGTH, 6D)
                 .add(Attributes.ATTACK_DAMAGE, 1.5f)
-                .add(Attributes.ATTACK_KNOCKBACK, 0.25f);
+                .add(Attributes.ATTACK_KNOCKBACK, 0.4f);
     }
 
     public static boolean canMetalSpawn(EntityType<MetalSlimeEntity> entityType, ServerLevelAccessor level, MobSpawnType spawnType, BlockPos pos, RandomSource random) {

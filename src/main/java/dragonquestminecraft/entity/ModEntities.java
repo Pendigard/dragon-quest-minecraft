@@ -45,6 +45,26 @@ public class ModEntities {
             ENTITY_TYPES.register("mischievous_mole", () -> EntityType.Builder.of(MischievousMoleEntity::new, MobCategory.MONSTER)
                     .sized(1.2f, 1.8f).build("mischievous_mole"));
 
+    public static final RegistryObject<EntityType<KingSlimeEntity>> KING_SLIME =
+            ENTITY_TYPES.register("king_slime", () -> EntityType.Builder.of(KingSlimeEntity::new, MobCategory.MONSTER)
+                    .sized(2.8f, 1.9f).build("king_slime"));
+
+    public static final RegistryObject<EntityType<MetalKingSlimeEntity>> METAL_KING_SLIME =
+            ENTITY_TYPES.register("metal_king_slime", () -> EntityType.Builder.of(MetalKingSlimeEntity::new, MobCategory.MONSTER)
+                    .sized(2.8f, 1.9f).build("metal_king_slime"));
+
+    public static final RegistryObject<EntityType<KingCureslimeEntity>> KING_CURESLIME =
+            ENTITY_TYPES.register("king_cureslime", () -> EntityType.Builder.of(KingCureslimeEntity::new, MobCategory.MONSTER)
+                    .sized(2.8f, 1.9f).build("king_cureslime"));
+
+    public static final RegistryObject<EntityType<BubbleSlimeEntity>> BUBBLE_SLIME =
+            ENTITY_TYPES.register("bubble_slime", () -> EntityType.Builder.of(BubbleSlimeEntity::new, MobCategory.MONSTER)
+                    .sized(1f, 0.5f).build("bubble_slime"));
+
+    public static final RegistryObject<EntityType<LiquidMetalSlimeEntity>> LIQUID_METAL_SLIME =
+            ENTITY_TYPES.register("liquid_metal_slime", () -> EntityType.Builder.of(LiquidMetalSlimeEntity::new, MobCategory.MONSTER)
+                    .sized(1f, 0.5f).build("liquid_metal_slime"));
+
     public static void register(IEventBus eventBus) {
         ENTITY_TYPES.register(eventBus);
 

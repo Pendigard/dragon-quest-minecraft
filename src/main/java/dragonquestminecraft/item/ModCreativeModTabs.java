@@ -52,6 +52,11 @@ public class ModCreativeModTabs {
                                 p_259752_.accept(ModItems.GLACIAL_GOLEM_SPAWN_EGG.get());
                                 p_259752_.accept(ModItems.GOLD_GOLEM_SPAWN_EGG.get());
                                 p_259752_.accept(ModItems.MISCHIEVOUS_MOLE_SPAWN_EGG.get());
+                                p_259752_.accept(ModItems.KING_SLIME_SPAWN_EGG.get());
+                                p_259752_.accept(ModItems.METAL_KING_SLIME_SPAWN_EGG.get());
+                                p_259752_.accept(ModItems.KING_CURESLIME_SPAWN_EGG.get());
+                                p_259752_.accept(ModItems.BUBBLE_SLIME_SPAWN_EGG.get());
+                                p_259752_.accept(ModItems.LIQUID_METAL_SLIME_SPAWN_EGG.get());
                             })
                             .build());
     public static void register(IEventBus eventBus) {

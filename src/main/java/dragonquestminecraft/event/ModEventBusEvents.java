@@ -70,6 +70,41 @@ public class ModEventBusEvents {
                 MischievousMoleEntity::canSpawn,
                 SpawnPlacementRegisterEvent.Operation.OR
         );
+        event.register(
+                ModEntities.KING_SLIME.get(),
+                SpawnPlacements.Type.ON_GROUND,
+                Heightmap.Types.MOTION_BLOCKING_NO_LEAVES,
+                KingSlimeEntity::canSpawn,
+                SpawnPlacementRegisterEvent.Operation.OR
+        );
+        event.register(
+                ModEntities.METAL_KING_SLIME.get(),
+                SpawnPlacements.Type.ON_GROUND,
+                Heightmap.Types.MOTION_BLOCKING_NO_LEAVES,
+                MetalKingSlimeEntity::canMetalSpawn,
+                SpawnPlacementRegisterEvent.Operation.OR
+        );
+        event.register(
+                ModEntities.KING_CURESLIME.get(),
+                SpawnPlacements.Type.ON_GROUND,
+                Heightmap.Types.MOTION_BLOCKING_NO_LEAVES,
+                KingCureslimeEntity::canCureSpawn,
+                SpawnPlacementRegisterEvent.Operation.OR
+        );
+        event.register(
+                ModEntities.BUBBLE_SLIME.get(),
+                SpawnPlacements.Type.ON_GROUND,
+                Heightmap.Types.MOTION_BLOCKING_NO_LEAVES,
+                BubbleSlimeEntity::canSpawn,
+                SpawnPlacementRegisterEvent.Operation.OR
+        );
+        event.register(
+                ModEntities.LIQUID_METAL_SLIME.get(),
+                SpawnPlacements.Type.ON_GROUND,
+                Heightmap.Types.MOTION_BLOCKING_NO_LEAVES,
+                LiquidMetalSlimeEntity::canLiquidMetalSpawn,
+                SpawnPlacementRegisterEvent.Operation.OR
+        );
     }
 
 
@@ -83,5 +118,10 @@ public class ModEventBusEvents {
         event.put(ModEntities.GLACIAL_GOLEM.get(), GlacialGolemEntity.createAttributes().build());
         event.put(ModEntities.GOLD_GOLEM.get(), GoldGolemEntity.createAttributes().build());
         event.put(ModEntities.MISCHIEVOUS_MOLE.get(), MischievousMoleEntity.createAttributes().build());
+        event.put(ModEntities.KING_SLIME.get(), KingSlimeEntity.createAttributes().build());
+        event.put(ModEntities.METAL_KING_SLIME.get(), MetalKingSlimeEntity.createAttributes().build());
+        event.put(ModEntities.KING_CURESLIME.get(), KingCureslimeEntity.createAttributes().build());
+        event.put(ModEntities.BUBBLE_SLIME.get(), BubbleSlimeEntity.createAttributes().build());
+        event.put(ModEntities.LIQUID_METAL_SLIME.get(), LiquidMetalSlimeEntity.createAttributes().build());
     }
 }

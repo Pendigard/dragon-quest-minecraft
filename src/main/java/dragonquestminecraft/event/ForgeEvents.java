@@ -3,6 +3,8 @@ package dragonquestminecraft.event;
 
 import dragonquestminecraft.DragonQuestMinecraft;
 import dragonquestminecraft.effect.ModEffects;
+import dragonquestminecraft.entity.custom.LiquidMetalSlimeEntity;
+import dragonquestminecraft.entity.custom.MetalKingSlimeEntity;
 import dragonquestminecraft.entity.custom.MetalSlimeEntity;
 import net.minecraft.client.Minecraft;
 import net.minecraft.core.BlockPos;
@@ -27,6 +29,12 @@ public class ForgeEvents {
     public static void onLivingExperienceDrop(LivingExperienceDropEvent e) {
         if (e.getEntity() instanceof MetalSlimeEntity) {
             e.setDroppedExperience(56);
+        }
+        if (e.getEntity() instanceof LiquidMetalSlimeEntity) {
+            e.setDroppedExperience(250);
+        }
+        if (e.getEntity() instanceof MetalKingSlimeEntity) {
+            e.setDroppedExperience(1000);
         }
     }
     @SubscribeEvent
