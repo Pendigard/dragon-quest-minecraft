@@ -3,7 +3,6 @@ package dragonquestminecraft.entity.client.bubble_slime;
 import com.mojang.blaze3d.vertex.PoseStack;
 import dragonquestminecraft.DragonQuestMinecraft;
 import dragonquestminecraft.entity.client.ModModelLayers;
-import dragonquestminecraft.entity.client.bubble_slime.BubbleSlimeModel;
 import dragonquestminecraft.entity.custom.*;
 import net.minecraft.client.renderer.MultiBufferSource;
 import net.minecraft.client.renderer.entity.EntityRendererProvider;
@@ -13,7 +12,7 @@ import net.minecraft.resources.ResourceLocation;
 public class BubbleSlimeRenderer extends MobRenderer<BubbleSlimeEntity, BubbleSlimeModel<BubbleSlimeEntity>> {
 
     public BubbleSlimeRenderer(EntityRendererProvider.Context p_174304_) {
-        super(p_174304_, new BubbleSlimeModel<>(p_174304_.bakeLayer(ModModelLayers.GOLEM_LAYER)), 2f);
+        super(p_174304_, new BubbleSlimeModel<>(p_174304_.bakeLayer(ModModelLayers.BUBBLE_SLIME_LAYER)), 0.5f);
         // p_174306 is the shadow radius
     }
 

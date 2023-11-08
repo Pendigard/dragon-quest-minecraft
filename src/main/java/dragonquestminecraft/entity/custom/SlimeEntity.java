@@ -70,7 +70,7 @@ public class SlimeEntity extends Monster {
     public static AttributeSupplier.Builder createAttributes() {
         return Monster.createLivingAttributes()
                 .add(Attributes.MAX_HEALTH, 6D)
-                .add(Attributes.FOLLOW_RANGE, 15D)
+                .add(Attributes.FOLLOW_RANGE, 20D)
                 .add(Attributes.MOVEMENT_SPEED, 0.25D)
                 .add(Attributes.JUMP_STRENGTH, 6D)
                 .add(Attributes.ATTACK_DAMAGE, 1f)

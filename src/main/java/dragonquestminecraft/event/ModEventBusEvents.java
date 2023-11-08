@@ -105,6 +105,13 @@ public class ModEventBusEvents {
                 LiquidMetalSlimeEntity::canLiquidMetalSpawn,
                 SpawnPlacementRegisterEvent.Operation.OR
         );
+        event.register(
+                ModEntities.DRACKY.get(),
+                SpawnPlacements.Type.ON_GROUND,
+                Heightmap.Types.MOTION_BLOCKING_NO_LEAVES,
+                DrackyEntity::canSpawn,
+                SpawnPlacementRegisterEvent.Operation.OR
+        );
     }
 
 
@@ -123,5 +130,6 @@ public class ModEventBusEvents {
         event.put(ModEntities.KING_CURESLIME.get(), KingCureslimeEntity.createAttributes().build());
         event.put(ModEntities.BUBBLE_SLIME.get(), BubbleSlimeEntity.createAttributes().build());
         event.put(ModEntities.LIQUID_METAL_SLIME.get(), LiquidMetalSlimeEntity.createAttributes().build());
+        event.put(ModEntities.DRACKY.get(), DrackyEntity.createAttributes().build());
     }
 }

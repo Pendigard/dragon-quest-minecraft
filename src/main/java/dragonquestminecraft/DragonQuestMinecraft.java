@@ -5,6 +5,7 @@ import dragonquestminecraft.block.ModBlocks;
 import dragonquestminecraft.effect.ModEffects;
 import dragonquestminecraft.entity.ModEntities;
 import dragonquestminecraft.entity.client.bubble_slime.BubbleSlimeRenderer;
+import dragonquestminecraft.entity.client.dracky.DrackyRenderer;
 import dragonquestminecraft.entity.client.golem.GolemRenderer;
 import dragonquestminecraft.entity.client.king_slime.KingSlimeRenderer;
 import dragonquestminecraft.entity.client.mischievous_mole.MischievousMoleRenderer;
@@ -89,6 +90,7 @@ public class DragonQuestMinecraft {
             EntityRenderers.register(ModEntities.KING_CURESLIME.get(), KingSlimeRenderer::new);
             EntityRenderers.register(ModEntities.BUBBLE_SLIME.get(), BubbleSlimeRenderer::new);
             EntityRenderers.register(ModEntities.LIQUID_METAL_SLIME.get(), BubbleSlimeRenderer::new);
+            EntityRenderers.register(ModEntities.DRACKY.get(), DrackyRenderer::new);
         }
     }
 }

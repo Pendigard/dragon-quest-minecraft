@@ -106,7 +106,7 @@ public class BubbleSlimeModel<T extends Entity> extends HierarchicalModel<T> {
 		this.root().getAllParts().forEach(ModelPart::resetPose);
 
 		this.animateWalk(ModAnimationBubbleSlimeDefinitions.BUBBLE_SLIME_WALK, limbSwing, limbSwingAmount, 2f, 2.5f);
-		this.animate(((BubbleSlimeEntity) entity).idleAnimationState, ModAnimationBubbleSlimeDefinitions.BUBBLE_SLIME_WALK, ageInTicks, 1f);
+		this.animate(((BubbleSlimeEntity) entity).idleAnimationState, ModAnimationBubbleSlimeDefinitions.BUBBLE_SLIME_IDLE, ageInTicks, 1f);
 
 	}
 

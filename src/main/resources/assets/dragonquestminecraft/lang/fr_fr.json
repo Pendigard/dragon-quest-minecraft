@@ -60,6 +60,8 @@
   "item.dragonquestminecraft.bubble_slime_spawn_egg" : "Oeuf d'apparition de gluanbulle",
   "entity.dragonquestminecraft.liquid_metal_slime" : "Gluant de mercure",
   "item.dragonquestminecraft.liquid_metal_slime_spawn_egg" : "Oeuf d'apparition de gluant de mercure",
+  "entity.dragonquestminecraft.dracky" : "Vampivol",
+  "item.dragonquestminecraft.dracky_spawn_egg" : "Oeuf d'apparition de vampivol",
   "item.dragonquestminecraft.medicinal_herb" : "Herbe médicinale",
   "tooltip.dragonquestminecraft.medicinal_herb.tooltip" : "§7Herbes avec des propriétées curatives qui lorsqu'elles sont consommées redonnent 2 cœurs",
   "item.dragonquestminecraft.strong_medicine" : "Remède puissant",

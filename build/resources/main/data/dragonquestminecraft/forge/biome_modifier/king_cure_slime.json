@@ -1,9 +1,9 @@
 {
   "type": "forge:add_spawns",
-  "biomes": ["minecraft:plains", "minecraft:forest", "minecraft:birch_forest"],
+  "biomes": "#minecraft:is_forest",
   "spawners": {
     "type": "dragonquestminecraft:king_cureslime",
-    "weight": 3,
+    "weight": 5,
     "minCount": 1,
     "maxCount": 1
   }

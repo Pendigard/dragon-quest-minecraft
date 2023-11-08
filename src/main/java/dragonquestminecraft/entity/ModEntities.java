@@ -65,6 +65,10 @@ public class ModEntities {
             ENTITY_TYPES.register("liquid_metal_slime", () -> EntityType.Builder.of(LiquidMetalSlimeEntity::new, MobCategory.MONSTER)
                     .sized(1f, 0.5f).build("liquid_metal_slime"));
 
+    public static final RegistryObject<EntityType<DrackyEntity>> DRACKY =
+            ENTITY_TYPES.register("dracky", () -> EntityType.Builder.of(DrackyEntity::new, MobCategory.MONSTER)
+                    .sized(1f, 1.5f).build("dracky"));
+
     public static void register(IEventBus eventBus) {
         ENTITY_TYPES.register(eventBus);
 

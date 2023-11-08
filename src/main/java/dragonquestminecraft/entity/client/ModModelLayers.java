@@ -18,4 +18,7 @@ public class ModModelLayers {
 
     public static final ModelLayerLocation BUBBLE_SLIME_LAYER = new ModelLayerLocation(
             new ResourceLocation(DragonQuestMinecraft.MODID, "bubble_slime_layer"), "main");
+
+    public static final ModelLayerLocation DRACKY_LAYER = new ModelLayerLocation(
+            new ResourceLocation(DragonQuestMinecraft.MODID, "dracky_layer"), "main");
 }

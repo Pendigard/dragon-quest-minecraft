@@ -1,6 +1,5 @@
 package dragonquestminecraft.entity.custom;
 
-import dragonquestminecraft.entity.ai.KingSlimeAttackGoal;
 import net.minecraft.core.BlockPos;
 import net.minecraft.util.RandomSource;
 import net.minecraft.world.Difficulty;
@@ -28,7 +27,6 @@ public class LiquidMetalSlimeEntity extends BubbleSlimeEntity {
     protected void registerGoals() {
         this.goalSelector.addGoal(0, new FloatGoal(this));
         this.goalSelector.addGoal(0, new AvoidEntityGoal<>(this, Player.class, 10.0F, 1D, 2D));
-        this.goalSelector.addGoal(1, new KingSlimeAttackGoal(this, 1f, true));
         this.goalSelector.addGoal(1, new NearestAttackableTargetGoal<>(this, Player.class, true));
         this.goalSelector.addGoal(1, new WaterAvoidingRandomStrollGoal(this, 1D));
         this.goalSelector.addGoal(2, new LookAtPlayerGoal(this, Player.class, 3f));

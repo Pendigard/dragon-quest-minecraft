@@ -21,7 +21,7 @@ public class GlacialGolemEntity extends GolemEntity {
                 .add(Attributes.MAX_HEALTH, 130D)
                 .add(Attributes.ARMOR_TOUGHNESS, 4D)
                 .add(Attributes.KNOCKBACK_RESISTANCE, 1D)
-                .add(Attributes.FOLLOW_RANGE, 25D)
+                .add(Attributes.FOLLOW_RANGE, 30D)
                 .add(Attributes.MOVEMENT_SPEED, 0.3D)
                 .add(Attributes.JUMP_STRENGTH, 2D)
                 .add(Attributes.ATTACK_DAMAGE, 8f)
