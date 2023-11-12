@@ -2,6 +2,7 @@ package dragonquestminecraft.item;
 
 import dragonquestminecraft.DragonQuestMinecraft;
 import dragonquestminecraft.entity.ModEntities;
+import dragonquestminecraft.item.custom.ChimaeraWingItem;
 import net.minecraft.world.item.Item;
 import net.minecraft.world.item.SwordItem;
 import net.minecraftforge.common.ForgeSpawnEggItem;
@@ -138,6 +139,8 @@ public class ModItems {
     public static final RegistryObject<Item> YGGDRASIL_LEAF = ITEMS.register("yggdrasil_leaf",
             () -> new ModItemWithDescription(new Item.Properties().food(ModFoods.YGGDRASIL_LEAF)));
 
+    /*public static final RegistryObject<Item> CHIMAERA_WING = ITEMS.register("chimaera_wing",
+            () -> new ChimaeraWingItem(new Item.Properties()));*/
 
 
     public static void register(IEventBus eventBus) {

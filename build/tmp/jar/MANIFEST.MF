@@ -5,5 +5,5 @@ Specification-Version: 1
 Implementation-Title: dragon-quest-minecraft
 Implementation-Version: 1.0.0
 Implementation-Vendor: Célian
-Implementation-Timestamp: 2023-11-08T12:43:12+0100
+Implementation-Timestamp: 2023-11-08T22:00:26+0100
 

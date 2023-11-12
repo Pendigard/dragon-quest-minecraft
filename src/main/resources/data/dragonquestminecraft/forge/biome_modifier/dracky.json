@@ -1,9 +1,9 @@
 {
   "type": "forge:add_spawns",
-  "biomes": "#minecraft:overworld",
+  "biomes": "#minecraft:is_forest",
   "spawners": {
     "type": "dragonquestminecraft:dracky",
-    "weight": 100,
+    "weight": 150,
     "minCount": 1,
     "maxCount": 5
   }

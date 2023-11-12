@@ -81,11 +81,6 @@ public class DrackyEntity extends Monster {
     }
 
     public static boolean canSpawn(EntityType<DrackyEntity> entityType, ServerLevelAccessor level, MobSpawnType spawnType, BlockPos pos, RandomSource random) {
-        if (level.getLevelData().getDayTime() > 13000) {
-            return level.getDifficulty() != Difficulty.PEACEFUL && pos.getY() >= 62;
-        }
-        else {
-            return  level.getDifficulty() != Difficulty.PEACEFUL && pos.getY() < 62;
-        }
+        return level.getDifficulty() != Difficulty.PEACEFUL;
     }
 }

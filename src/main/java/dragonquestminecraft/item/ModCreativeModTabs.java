@@ -40,6 +40,7 @@ public class ModCreativeModTabs {
                                 p_259752_.accept(ModItems.STRONG_MEDICINE.get());
                                 p_259752_.accept(ModItems.SUPERIOR_MEDICINE.get());
                                 p_259752_.accept(ModItems.YGGDRASIL_LEAF.get());
+                                //p_259752_.accept(ModItems.CHIMAERA_WING.get());
                                 p_259752_.accept(ModItems.METAL_SLIME_SWORD.get());
                                 p_259752_.accept(ModItems.RAW_ORICHALCUM.get());
                                 p_259752_.accept(ModItems.ORICHALCUM_INGOT.get());

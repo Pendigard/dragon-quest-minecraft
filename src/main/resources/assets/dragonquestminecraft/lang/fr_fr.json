@@ -69,6 +69,7 @@
   "item.dragonquestminecraft.superior_medicine" : "Remède supérieur",
   "tooltip.dragonquestminecraft.superior_medicine.tooltip" : "§7Un excellent médicament qui, une fois consommé restaure 6 cœurs",
   "item.dragonquestminecraft.yggdrasil_leaf" : "Feuille de l'Yggdrasil",
+  "item.dragonquestminecraft.chimaera_leaf" : "Aile de chimère",
   "tooltip.dragonquestminecraft.yggdrasil_leaf.tooltip" : "§7Feuille du légendaire arbre monde Yggdrasil qui fait ressusciter la personne qui la consomme",
   "effect.dragonquestminecraft.yggdrasil_blessing" : "Bénédiction de l'Yggdrasil",
   "creativetab.dragon_quest_tab" : "Dragon Quest"
