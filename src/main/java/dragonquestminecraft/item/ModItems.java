@@ -127,6 +127,14 @@ public class ModItems {
             () -> new ForgeSpawnEggItem(ModEntities.DRACKY, 0x25215a, 0x1a164b,
                     new Item.Properties()));
 
+    public static final RegistryObject<Item> GIGANTE_SPAWN_EGG = ITEMS.register("gigante_spawn_egg",
+            () -> new ForgeSpawnEggItem(ModEntities.GIGANTE, 0x4dc5f0, 0x1326a7,
+                    new Item.Properties()));
+
+    public static final RegistryObject<Item> ATLAS_SPAWN_EGG = ITEMS.register("atlas_spawn_egg",
+            () -> new ForgeSpawnEggItem(ModEntities.ATLAS, 0xf5a75a, 0x1a6d53,
+                    new Item.Properties()));
+
     public static final RegistryObject<Item> MEDICINAL_HERB = ITEMS.register("medicinal_herb",
             () -> new ModItemWithDescription(new Item.Properties().food(ModFoods.MEDICINAL_HERB)));
 

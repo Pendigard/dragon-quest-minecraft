@@ -4,6 +4,7 @@ import dragonquestminecraft.DragonQuestMinecraft;
 import dragonquestminecraft.entity.client.ModModelLayers;
 import dragonquestminecraft.entity.client.bubble_slime.BubbleSlimeModel;
 import dragonquestminecraft.entity.client.dracky.DrackyModel;
+import dragonquestminecraft.entity.client.gigante.GiganteModel;
 import dragonquestminecraft.entity.client.golem.GolemModel;
 import dragonquestminecraft.entity.client.king_slime.KingSlimeModel;
 import dragonquestminecraft.entity.client.mischievous_mole.MischievousMoleModel;
@@ -23,5 +24,6 @@ public class ModEventBusClientEvents {
         event.registerLayerDefinition(ModModelLayers.KING_SLIME_LAYER, KingSlimeModel::createBodyLayer);
         event.registerLayerDefinition(ModModelLayers.BUBBLE_SLIME_LAYER, BubbleSlimeModel::createBodyLayer);
         event.registerLayerDefinition(ModModelLayers.DRACKY_LAYER, DrackyModel::createBodyLayer);
+        event.registerLayerDefinition(ModModelLayers.GIGANTE_LAYER, GiganteModel::createBodyLayer);
     }
 }

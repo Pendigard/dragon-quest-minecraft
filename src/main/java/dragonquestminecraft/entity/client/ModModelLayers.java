@@ -21,4 +21,7 @@ public class ModModelLayers {
 
     public static final ModelLayerLocation DRACKY_LAYER = new ModelLayerLocation(
             new ResourceLocation(DragonQuestMinecraft.MODID, "dracky_layer"), "main");
+
+    public static final ModelLayerLocation GIGANTE_LAYER = new ModelLayerLocation(
+            new ResourceLocation(DragonQuestMinecraft.MODID, "gigante_layer"), "main");
 }

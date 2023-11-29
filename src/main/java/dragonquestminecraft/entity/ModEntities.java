@@ -69,6 +69,14 @@ public class ModEntities {
             ENTITY_TYPES.register("dracky", () -> EntityType.Builder.of(DrackyEntity::new, MobCategory.MONSTER)
                     .sized(1f, 1.5f).build("dracky"));
 
+    public static final RegistryObject<EntityType<GiganteEntity>> GIGANTE =
+            ENTITY_TYPES.register("gigante", () -> EntityType.Builder.of(GiganteEntity::new, MobCategory.MONSTER)
+                    .sized(3.7f, 6f).build("gigante"));
+
+    public static final RegistryObject<EntityType<AtlasEntity>> ATLAS =
+            ENTITY_TYPES.register("atlas", () -> EntityType.Builder.of(AtlasEntity::new, MobCategory.MONSTER)
+                    .sized(3.7f, 6f).build("atlas"));
+
     public static void register(IEventBus eventBus) {
         ENTITY_TYPES.register(eventBus);
 

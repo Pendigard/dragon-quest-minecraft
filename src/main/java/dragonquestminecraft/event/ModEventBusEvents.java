@@ -112,6 +112,20 @@ public class ModEventBusEvents {
                 DrackyEntity::canSpawn,
                 SpawnPlacementRegisterEvent.Operation.OR
         );
+        event.register(
+                ModEntities.GIGANTE.get(),
+                SpawnPlacements.Type.ON_GROUND,
+                Heightmap.Types.MOTION_BLOCKING_NO_LEAVES,
+                GiganteEntity::canSpawn,
+                SpawnPlacementRegisterEvent.Operation.OR
+        );
+        event.register(
+                ModEntities.ATLAS.get(),
+                SpawnPlacements.Type.ON_GROUND,
+                Heightmap.Types.MOTION_BLOCKING_NO_LEAVES,
+                AtlasEntity::canAtlasSpawn,
+                SpawnPlacementRegisterEvent.Operation.OR
+        );
     }
 
 
@@ -131,5 +145,7 @@ public class ModEventBusEvents {
         event.put(ModEntities.BUBBLE_SLIME.get(), BubbleSlimeEntity.createAttributes().build());
         event.put(ModEntities.LIQUID_METAL_SLIME.get(), LiquidMetalSlimeEntity.createAttributes().build());
         event.put(ModEntities.DRACKY.get(), DrackyEntity.createAttributes().build());
+        event.put(ModEntities.GIGANTE.get(), GiganteEntity.createAttributes().build());
+        event.put(ModEntities.ATLAS.get(), AtlasEntity.createAttributes().build());
     }
 }

@@ -59,6 +59,8 @@ public class ModCreativeModTabs {
                                 p_259752_.accept(ModItems.BUBBLE_SLIME_SPAWN_EGG.get());
                                 p_259752_.accept(ModItems.LIQUID_METAL_SLIME_SPAWN_EGG.get());
                                 p_259752_.accept(ModItems.DRACKY_SPAWN_EGG.get());
+                                p_259752_.accept(ModItems.GIGANTE_SPAWN_EGG.get());
+                                p_259752_.accept(ModItems.ATLAS_SPAWN_EGG.get());
                             })
                             .build());
     public static void register(IEventBus eventBus) {
