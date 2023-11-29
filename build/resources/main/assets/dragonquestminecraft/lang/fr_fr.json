@@ -5,7 +5,7 @@
   "item.dragonquestminecraft.raw_orichalcum" : "Orichalque brut",
   "item.dragonquestminecraft.orichalcum_ingot" : "Lingot d'Orichalque",
   "block.dragonquestminecraft.orichalcum_ore" : "Minerai d'Orichalcum",
-  "item.dragonquestminecraft.mini_medal" : "§e§oMini médaille",
+  "item.dragonquestminecraft.mini_medal" : "§eMini médaille",
   "tooltip.dragonquestminecraft.mini_medal.tooltip" : "§7Une médaille très précieuse que l'on trouve dans différents endroits, qui peut être échangée contre de précieuses récompenses et objets",
   "item.dragonquestminecraft.molten_globules" : "Gouttes métalliques",
   "tooltip.dragonquestminecraft.molten_globules.tooltip" : "§7Fragments presque invulnérable acquis sur les monstres métalliques, utilisés comme ingrédient de fabrication",
@@ -76,5 +76,7 @@
   "item.dragonquestminecraft.chimaera_leaf" : "Aile de chimère",
   "tooltip.dragonquestminecraft.yggdrasil_leaf.tooltip" : "§7Feuille du légendaire arbre monde Yggdrasil qui fait ressusciter la personne qui la consomme",
   "effect.dragonquestminecraft.yggdrasil_blessing" : "Bénédiction de l'Yggdrasil",
+  "item.dragonquestminecraft.chimaera_wing" : "Aile de chimère",
+  "tooltip.dragonquestminecraft.chimaera_wing.tooltip" : "§7Une aile magique qui vous téléporte à votre point de réapparition",
   "creativetab.dragon_quest_tab" : "Dragon Quest"
 }

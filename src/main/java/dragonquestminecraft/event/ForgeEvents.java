@@ -13,6 +13,7 @@ import net.minecraft.sounds.SoundEvents;
 import net.minecraft.sounds.SoundSource;
 import net.minecraft.util.RandomSource;
 import net.minecraft.world.entity.player.Player;
+import net.minecraft.world.level.Level;
 import net.minecraftforge.event.entity.living.LivingExperienceDropEvent;
 import net.minecraftforge.event.entity.living.LivingHurtEvent;
 import net.minecraftforge.event.entity.living.LivingFallEvent;
@@ -20,7 +21,6 @@ import net.minecraftforge.eventbus.api.SubscribeEvent;
 import net.minecraftforge.fml.common.Mod;
 
 import java.util.Random;
-import java.util.logging.Level;
 
 @Mod.EventBusSubscriber(modid = DragonQuestMinecraft.MODID)
 public class ForgeEvents {
@@ -44,6 +44,10 @@ public class ForgeEvents {
                 e.getEntity().clearFire();
                 e.getEntity().setHealth(6f);
                 e.getEntity().removeEffect(ModEffects.YGGDRASIL_BLESSING.get());
+                Level level = e.getEntity().level();
+                if (!level.isClientSide()) {
+                    level.playSound(null, e.getEntity().blockPosition(), SoundEvents.TOTEM_USE, SoundSource.PLAYERS, 0.1f, 4f);
+                }
             }
         }
     }
@@ -55,8 +59,13 @@ public class ForgeEvents {
                 // Check if the damage taken by the entity at the end of its fall is going to kill it
                 // The damage calculation comes from : https://minecraft.fandom.com/wiki/Damage#Fall_damage
                 e.setDistance(0.0f);
+                e.getEntity().clearFire();
                 e.getEntity().setHealth(6f);
                 e.getEntity().removeEffect(ModEffects.YGGDRASIL_BLESSING.get());
+                Level level = e.getEntity().level();
+                if (!level.isClientSide()) {
+                    level.playSound(null, e.getEntity().blockPosition(), SoundEvents.TOTEM_USE, SoundSource.PLAYERS, 0.1f, 2f);
+                }
             }
         }
     }

@@ -5,7 +5,7 @@
   "item.dragonquestminecraft.raw_orichalcum" : "Raw Orichalcum",
   "item.dragonquestminecraft.orichalcum_ingot" : "Orichalcum ingot",
   "block.dragonquestminecraft.orichalcum_ore" : "Orichalcum ore",
-  "item.dragonquestminecraft.mini_medal" : "§e§oMini medal",
+  "item.dragonquestminecraft.mini_medal" : "§eMini medal",
   "tooltip.dragonquestminecraft.mini_medal.tooltip" : "§7A very precious medal often found throughout the world, which can be exchanged for valuable rewards and items",
   "item.dragonquestminecraft.molten_globules" : "Molten globules",
   "tooltip.dragonquestminecraft.molten_globules.tooltip" : "§7Nearly-impervious fragments acquired from metallic monsters that are used as a crafting ingredients",
@@ -76,5 +76,7 @@
   "item.dragonquestminecraft.chimaera_leaf" : "Chiamaera wing",
   "tooltip.dragonquestminecraft.yggdrasil_leaf.tooltip" : "§7Leaf of the legendary world tree of Yggdrasil which resurrects the person who consumes it",
   "effect.dragonquestminecraft.yggdrasil_blessing" : "Yggdrasil blessing",
+  "item.dragonquestminecraft.chimaera_wing" : "Chimaera wing",
+  "tooltip.dragonquestminecraft.chimaera_wing.tooltip" : "§7A magical wing that can be used to teleport to your spawn point",
   "creativetab.dragon_quest_tab" : "Dragon Quest"
 }
